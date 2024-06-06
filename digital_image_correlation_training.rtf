@@ -1,0 +1,853 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\froman\fprq2\fcharset0 Arial;}{\f5\froman\fprq2\fcharset0 Liberation Sans{\*\falt Arial};}{\f6\froman\fprq2\fcharset0 Calibri Light;}{\f7\froman\fprq2\fcharset0 Times New Roman;}{\f8\fnil\fprq2\fcharset0 Noto Sans CJK SC;}{\f9\fnil\fprq2\fcharset0 Calibri;}{\f10\fnil\fprq2\fcharset0 Times New Roman;}{\f11\fnil\fprq2\fcharset128 \'9f\'e0\'83\'53\'83\'56\'83\'62\'83\'4e Light;}{\f12\fnil\fprq2\fcharset128 \'9f\'e0\'96\'be\'92\'a9;}{\f13\fnil\fprq2\fcharset0 Arial;}{\f14\fnil\fprq2\fcharset0 Lohit Devanagari;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red47\green84\blue150;\red39\green39\blue39;\red31\green55\blue99;}
+{\stylesheet{\s0\snext0\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033 Normal;}
+{\s1\sbasedon0\snext0\rtlch\af10\afs32\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb240\sa0\keepn\ltrpar\cf0\f4\fs32\lang2057\b\kerning0\dbch\af11\langfe1033 Heading 1;}
+{\s2\sbasedon0\snext0\rtlch\af10\afs26\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf0\f4\fs26\lang2057\b\kerning0\dbch\af11\langfe1033 Heading 2;}
+{\s3\sbasedon0\snext0\rtlch\af10\afs24\alang1025 \ltrch\lang2057\langfe1033\hich\af6\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf19\f6\fs24\lang2057\kerning0\dbch\af11\langfe1033 Heading 3;}
+{\s4\sbasedon0\snext0\rtlch\af10\afs22\alang1025\ai \ltrch\lang2057\langfe1033\hich\af6\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf17\f6\fs20\lang2057\i\kerning0\dbch\af11\langfe1033 Heading 4;}
+{\s5\sbasedon0\snext0\rtlch\af10\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af6\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf17\f6\fs20\lang2057\kerning0\dbch\af11\langfe1033 Heading 5;}
+{\s6\sbasedon0\snext0\rtlch\af10\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af6\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf19\f6\fs20\lang2057\kerning0\dbch\af11\langfe1033 Heading 6;}
+{\s7\sbasedon0\snext0\rtlch\af10\afs22\alang1025\ai \ltrch\lang2057\langfe1033\hich\af6\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf19\f6\fs20\lang2057\i\kerning0\dbch\af11\langfe1033 Heading 7;}
+{\s8\sbasedon0\snext0\rtlch\af10\afs21\alang1025 \ltrch\lang2057\langfe1033\hich\af6\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf18\f6\fs21\lang2057\kerning0\dbch\af11\langfe1033 Heading 8;}
+{\s9\sbasedon0\snext0\rtlch\af10\afs21\alang1025\ai \ltrch\lang2057\langfe1033\hich\af6\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf18\f6\fs21\lang2057\i\kerning0\dbch\af11\langfe1033 Heading 9;}
+{\*\cs15\snext15 Default Paragraph Font;}
+{\*\cs16\sbasedon15\snext16\rtlch\af10\afs32 \ltrch\loch\cf1\fs32\b\dbch\af11 Heading 1 Char;}
+{\*\cs17\sbasedon15\snext17\rtlch\af10\afs26 \ltrch\loch\cf1\fs26\b\dbch\af11 Heading 2 Char;}
+{\*\cs18\sbasedon15\snext18\rtlch\af10\afs24 \ltrch\hich\af6\loch\cf19\f6\fs24\dbch\af11 Heading 3 Char;}
+{\*\cs19\sbasedon15\snext19\rtlch\af10\afs24\ai \ltrch\hich\af6\loch\cf17\f6\i\dbch\af11 Heading 4 Char;}
+{\*\cs20\sbasedon15\snext20\rtlch\af10\afs24 \ltrch\hich\af6\loch\cf17\f6\dbch\af11 Heading 5 Char;}
+{\*\cs21\sbasedon15\snext21\rtlch\af10\afs24 \ltrch\hich\af6\loch\cf19\f6\dbch\af11 Heading 6 Char;}
+{\*\cs22\sbasedon15\snext22\rtlch\af10\afs24\ai \ltrch\hich\af6\loch\cf19\f6\i\dbch\af11 Heading 7 Char;}
+{\*\cs23\sbasedon15\snext23\rtlch\af10\afs21 \ltrch\hich\af6\loch\cf18\f6\fs21\dbch\af11 Heading 8 Char;}
+{\*\cs24\sbasedon15\snext24\rtlch\af10\afs21\ai \ltrch\hich\af6\loch\cf18\f6\fs21\i\dbch\af11 Heading 9 Char;}
+{\*\cs25\sbasedon15\snext25\rtlch\af10\afs56 \ltrch\loch\cf1\fs56\expnd-2\expndtw-10\kerning1\dbch\af11 Title Char;}
+{\*\cs26\sbasedon15\snext26\rtlch\af10\afs24 \ltrch\loch\cf1\fs24\expnd3\expndtw15\dbch\af12 Subtitle Char;}
+{\*\cs27\sbasedon15\snext27\rtlch\af10\afs24\ai \ltrch\loch\cf1\i\dbch\af10 Quote Char;}
+{\*\cs28\sbasedon15\snext28\rtlch\af10\afs24 \ltrch\hich\af7\loch\cf15\f7\fs24\dbch\af10 Placeholder Text;}
+{\*\cs29\sbasedon15\snext29\rtlch\af10\afs24 \ltrch\loch\cf1\dbch\af10 Header Char;}
+{\*\cs30\sbasedon15\snext30\rtlch\af10\afs24 \ltrch\loch\cf1\dbch\af10 Footer Char;}
+{\*\cs31\snext31 ListLabel 1;}
+{\*\cs32\snext32 ListLabel 2;}
+{\*\cs33\snext33 ListLabel 3;}
+{\*\cs34\snext34 ListLabel 4;}
+{\*\cs35\snext35 ListLabel 5;}
+{\*\cs36\snext36 ListLabel 6;}
+{\*\cs37\snext37 ListLabel 7;}
+{\*\cs38\snext38 ListLabel 8;}
+{\*\cs39\snext39 ListLabel 9;}
+{\*\cs40\snext40 ListLabel 10;}
+{\*\cs41\snext41 ListLabel 11;}
+{\*\cs42\snext42 ListLabel 12;}
+{\*\cs43\snext43 ListLabel 13;}
+{\*\cs44\snext44 ListLabel 14;}
+{\*\cs45\snext45 ListLabel 15;}
+{\*\cs46\snext46 ListLabel 16;}
+{\*\cs47\snext47 ListLabel 17;}
+{\*\cs48\snext48 ListLabel 18;}
+{\*\cs49\snext49 ListLabel 19;}
+{\*\cs50\snext50 ListLabel 20;}
+{\*\cs51\snext51 ListLabel 21;}
+{\*\cs52\snext52 ListLabel 22;}
+{\*\cs53\snext53 ListLabel 23;}
+{\*\cs54\snext54 ListLabel 24;}
+{\*\cs55\snext55 ListLabel 25;}
+{\*\cs56\snext56 ListLabel 26;}
+{\*\cs57\snext57 ListLabel 27;}
+{\*\cs58\snext58 ListLabel 28;}
+{\*\cs59\snext59 ListLabel 29;}
+{\*\cs60\snext60 ListLabel 30;}
+{\*\cs61\snext61 ListLabel 31;}
+{\*\cs62\snext62 ListLabel 32;}
+{\*\cs63\snext63 ListLabel 33;}
+{\*\cs64\snext64 ListLabel 34;}
+{\*\cs65\snext65 ListLabel 35;}
+{\*\cs66\snext66 ListLabel 36;}
+{\*\cs67\snext67 ListLabel 37;}
+{\*\cs68\snext68 ListLabel 38;}
+{\*\cs69\snext69 ListLabel 39;}
+{\*\cs70\snext70 ListLabel 40;}
+{\*\cs71\snext71 ListLabel 41;}
+{\*\cs72\snext72 ListLabel 42;}
+{\*\cs73\snext73 ListLabel 43;}
+{\*\cs74\snext74 ListLabel 44;}
+{\*\cs75\snext75 ListLabel 45;}
+{\*\cs76\snext76 ListLabel 46;}
+{\*\cs77\snext77 ListLabel 47;}
+{\*\cs78\snext78 ListLabel 48;}
+{\*\cs79\snext79 ListLabel 49;}
+{\*\cs80\snext80 ListLabel 50;}
+{\*\cs81\snext81 ListLabel 51;}
+{\*\cs82\snext82 ListLabel 52;}
+{\*\cs83\snext83 ListLabel 53;}
+{\*\cs84\snext84 ListLabel 54;}
+{\*\cs85\snext85 ListLabel 55;}
+{\*\cs86\snext86 ListLabel 56;}
+{\*\cs87\snext87 ListLabel 57;}
+{\*\cs88\snext88 ListLabel 58;}
+{\*\cs89\snext89 ListLabel 59;}
+{\*\cs90\snext90 ListLabel 60;}
+{\*\cs91\snext91 ListLabel 61;}
+{\*\cs92\snext92 ListLabel 62;}
+{\*\cs93\snext93 ListLabel 63;}
+{\*\cs94\snext94 ListLabel 64;}
+{\*\cs95\snext95 ListLabel 65;}
+{\*\cs96\snext96 ListLabel 66;}
+{\*\cs97\snext97 ListLabel 67;}
+{\*\cs98\snext98 ListLabel 68;}
+{\*\cs99\snext99 ListLabel 69;}
+{\*\cs100\snext100 ListLabel 70;}
+{\*\cs101\snext101 ListLabel 71;}
+{\*\cs102\snext102 ListLabel 72;}
+{\s103\sbasedon0\snext104\rtlch\af14\afs28\alang1025 \ltrch\lang2057\langfe1033\hich\af5\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb240\sa120\keepn\ltrpar\cf0\f5\fs28\lang2057\kerning0\dbch\af8\langfe1033 Heading;}
+{\s104\sbasedon0\snext104\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl-276\slmult0\qj\widctlpar\hyphpar0\sb0\sa140\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033 Text Body;}
+{\s105\sbasedon104\snext105\rtlch\af14\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl-276\slmult0\qj\widctlpar\hyphpar0\sb0\sa140\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033 List;}
+{\s106\sbasedon0\snext106\rtlch\af14\afs24\alang1025\ai \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb120\sa120\ltrpar\cf0\f4\fs24\lang2057\i\kerning0\dbch\af9\langfe1033 Caption;}
+{\s107\sbasedon0\snext107\rtlch\af14\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033 Index;}
+{\s108\sbasedon0\snext0\rtlch\af10\afs56\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl-240\slmult0\qj\widctlpar\hyphpar0\sb0\sa0\contextualspace\ltrpar\cf0\f4\fs56\expnd-2\expndtw-10\lang2057\kerning1\dbch\af11\langfe1033 Title;}
+{\s109\sbasedon0\snext0\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs22\expnd3\expndtw15\lang2057\kerning0\dbch\af12\langfe1033 Subtitle;}
+{\s110\sbasedon0\snext0\rtlch\af13\afs18\alang1025\ai \ltrch\lang2057\langfe1033\hich\af4\loch\sl-240\slmult0\qj\widctlpar\hyphpar0\sb0\sa200\ltrpar\cf0\f4\fs18\lang2057\kerning0\dbch\af9\langfe1033 caption;}
+{\s111\sbasedon0\snext0\rtlch\af13\afs22\alang1025\ai \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qc\widctlpar\hyphpar0\li864\ri864\lin864\rin864\fi0\sb200\sa160\ltrpar\cf0\f4\fs20\lang2057\i\kerning0\dbch\af9\langfe1033 Quote;}
+{\s112\snext112\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl240\slmult1\ql\widctlpar\hyphpar0\sb0\sa0\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033 No Spacing;}
+{\s113\sbasedon0\snext113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033 List Paragraph;}
+{\s114\sbasedon0\snext114\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033 Header and Footer;}
+{\s115\sbasedon0\snext115\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl-240\slmult0\qj\widctlpar\tqc\tx4513\tqr\tx9026\hyphpar0\sb0\sa0\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033 Header;}
+{\s116\sbasedon0\snext116\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl-240\slmult0\qj\widctlpar\tqc\tx4513\tqr\tx9026\hyphpar0\sb0\sa0\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033 Footer;}
+}{\*\listtable{\list\listtemplateid1
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\'00;}{\levelnumbers\'01;}\fi-432\li432}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'03\'00.\'01;}{\levelnumbers\'01\'03;}\fi-576\li576}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\fi-720\li720}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\fi-864\li864}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\fi-1008\li1008}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\fi-1152\li1152}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\fi-1296\li1296}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\fi-1440\li1440}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\fi-1584\li1584}\listid1}
+{\list\listtemplateid2
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'00.;}{\levelnumbers\'01;}\fi-360\li360}
+{\listlevel\levelnfc4\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'01.;}{\levelnumbers\'01;}\fi-360\li1080}
+{\listlevel\levelnfc2\leveljc2\levelstartat1\levelfollow0{\leveltext \'02\'02.;}{\levelnumbers\'01;}\fi-180\li1800}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'03.;}{\levelnumbers\'01;}\fi-360\li2520}
+{\listlevel\levelnfc4\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'04.;}{\levelnumbers\'01;}\fi-360\li3240}
+{\listlevel\levelnfc2\leveljc2\levelstartat1\levelfollow0{\leveltext \'02\'05.;}{\levelnumbers\'01;}\fi-180\li3960}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'06.;}{\levelnumbers\'01;}\fi-360\li4680}
+{\listlevel\levelnfc4\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'07.;}{\levelnumbers\'01;}\fi-360\li5400}
+{\listlevel\levelnfc2\leveljc2\levelstartat1\levelfollow0{\leveltext \'02\'08.;}{\levelnumbers\'01;}\fi-180\li6120}\listid2}
+{\list\listtemplateid3
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'00.;}{\levelnumbers\'01;}\fi-360\li360}
+{\listlevel\levelnfc4\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'01.;}{\levelnumbers\'01;}\fi-360\li1080}
+{\listlevel\levelnfc2\leveljc2\levelstartat1\levelfollow0{\leveltext \'02\'02.;}{\levelnumbers\'01;}\fi-180\li1800}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'03.;}{\levelnumbers\'01;}\fi-360\li2520}
+{\listlevel\levelnfc4\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'04.;}{\levelnumbers\'01;}\fi-360\li3240}
+{\listlevel\levelnfc2\leveljc2\levelstartat1\levelfollow0{\leveltext \'02\'05.;}{\levelnumbers\'01;}\fi-180\li3960}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'06.;}{\levelnumbers\'01;}\fi-360\li4680}
+{\listlevel\levelnfc4\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'07.;}{\levelnumbers\'01;}\fi-360\li5400}
+{\listlevel\levelnfc2\leveljc2\levelstartat1\levelfollow0{\leveltext \'02\'08.;}{\levelnumbers\'01;}\fi-180\li6120}\listid3}
+{\list\listtemplateid4
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'00.;}{\levelnumbers\'01;}\fi-360\li360}
+{\listlevel\levelnfc4\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'01.;}{\levelnumbers\'01;}\fi-360\li1080}
+{\listlevel\levelnfc2\leveljc2\levelstartat1\levelfollow0{\leveltext \'02\'02.;}{\levelnumbers\'01;}\fi-180\li1800}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'03.;}{\levelnumbers\'01;}\fi-360\li2520}
+{\listlevel\levelnfc4\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'04.;}{\levelnumbers\'01;}\fi-360\li3240}
+{\listlevel\levelnfc2\leveljc2\levelstartat1\levelfollow0{\leveltext \'02\'05.;}{\levelnumbers\'01;}\fi-180\li3960}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'06.;}{\levelnumbers\'01;}\fi-360\li4680}
+{\listlevel\levelnfc4\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'07.;}{\levelnumbers\'01;}\fi-360\li5400}
+{\listlevel\levelnfc2\leveljc2\levelstartat1\levelfollow0{\leveltext \'02\'08.;}{\levelnumbers\'01;}\fi-180\li6120}\listid4}
+{\list\listtemplateid5
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}\listid5}
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}{\*\generator LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2}{\info{\author Lloyd Fletcher}{\creatim\yr2023\mo10\dy20\hr8\min14}{\revtim\yr2024\mo5\dy31\hr11\min30}{\printim\yr2020\mo11\dy6\hr16\min33}}{\*\userprops{\propname AppVersion}\proptype30{\staticval 15.0000}{\propname MSIP_Label_22759de7-3255-46b5-8dfe-736652f9c6c1_ActionId}\proptype30{\staticval 20ba5135-9cbe-451c-9f39-ac04b759b95f}{\propname MSIP_Label_22759de7-3255-46b5-8dfe-736652f9c6c1_ContentBits}\proptype30{\staticval 0}{\propname MSIP_Label_22759de7-3255-46b5-8dfe-736652f9c6c1_Enabled}\proptype30{\staticval true}{\propname MSIP_Label_22759de7-3255-46b5-8dfe-736652f9c6c1_Method}\proptype30{\staticval Standard}{\propname MSIP_Label_22759de7-3255-46b5-8dfe-736652f9c6c1_Name}\proptype30{\staticval 22759de7-3255-46b5-8dfe-736652f9c6c1}{\propname MSIP_Label_22759de7-3255-46b5-8dfe-736652f9c6c1_SetDate}\proptype30{\staticval 2023-10-20T08:14:21Z}{\propname MSIP_Label_22759de7-3255-46b5-8dfe-736652f9c6c1_SiteId}\proptype30{\staticval c6ac664b-ae27-4d5d-b4e6-bb5717196fc7}}\deftab720\deftab720
+\hyphauto1\viewscale100
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\footery708{\footer\pard\plain \s116\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl-240\slmult0\qj\widctlpar\tqc\tx4513\tqr\tx9026\hyphpar0\sb0\sa0\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033\sl240\slmult1\tqc\tx4513\tqr\tx9026{\loch
+Author: Dr Lloyd Fletcher \tab \tab Page }{\rtlch\ab \ltrch\loch\b\loch
+{\field{\*\fldinst  PAGE }{\fldrslt 3}}}{\loch
+ of }{\rtlch\ab \ltrch\loch\b\loch
+{\field{\*\fldinst  NUMPAGES }{\fldrslt 3}}}
+\par }\pgdscnxt0 Default Page Style;}}
+\formshade\paperh16838\paperw11906\margl1134\margr1134\margt1134\margb708\sectd\sbknone\pgndec\sftnnar\saftnnrlc\sectunlocked1\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\footery708{\footer\pard\plain \s116\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl-240\slmult0\qj\widctlpar\tqc\tx4513\tqr\tx9026\hyphpar0\sb0\sa0\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033\sl240\slmult1\tqc\tx4513\tqr\tx9026{\loch
+Author: Dr Lloyd Fletcher \tab \tab Page }{\rtlch\ab \ltrch\loch\b\loch
+{\field{\*\fldinst  PAGE }{\fldrslt 3}}}{\loch
+ of }{\rtlch\ab \ltrch\loch\b\loch
+{\field{\*\fldinst  NUMPAGES }{\fldrslt 3}}}
+\par }\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc\htmautsp
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s1\rtlch\af10\afs32\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb240\sa0\keepn\ltrpar\cf0\f4\fs32\lang2057\b\kerning0\dbch\af11\langfe1033{\listtext\pard\plain  1\tab}\ilvl0\ls1 \li864\ri0\lin864\rin0\fi-432\sl256\slmult1\li432\ri0\lin432\rin0\fi-432\sb240\sa0{\loch
+DIC Training }{\loch
+Experiment}
+\par \pard\plain \s2\rtlch\af10\afs26\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf0\f4\fs26\lang2057\b\kerning0\dbch\af11\langfe1033{\listtext\pard\plain  1.1\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi-576\sl256\slmult1\li576\ri0\lin576\rin0\fi-576{\loch
+Basic Camera Setup and Analysis}
+\par \pard\plain \s0\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033\sl256\slmult1{\loch
+The first part of this assignment is focused on the basics of setting up a simple 2D DIC experiment and analysing various characteristics of the DIC measurement system. You will use a speckle pattern target and a translation stage to evaluate the camera and measurement performance. You will present you results as a power point presentation. Where you see the term \u8216\'91}{\rtlch\ab \ltrch\loch\b\loch
+QU}{\loch
+\u8217\'92 you will need to report the answer in your power point.}
+\par \pard\plain \s0\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+Equipment Required:}{\loch
+ camera, fixed focal length lens, micro-meter translation stage, speckle pattern target.}
+\par \pard\plain \s0\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033\sl256\slmult1{\loch
+General Setup:}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  1.\tab}\ilvl0\ls3 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Mount the camera to the rigid rail using the screw mount provided}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  2.\tab}\ilvl0\ls3 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Connect the power cable and ethernet cables to the camera, plug these into the power board and ethernet port on the computer respectively}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls3 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Make sure the lights on the back of the camera ethernet port are flashing to indicate the camera is communicating with the computer}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  3.\tab}\ilvl0\ls3 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Remove the lens caps from the camera and screw in the C to F mount adapter}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  4.\tab}\ilvl0\ls3 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Align the red dot on the lens to the red dot on the F mount adapter and connect the lens by twisting until you hear and/or feel a click}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  5.\tab}\ilvl0\ls3 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Open the MatchID grabber, the camera \u8216\'91Manta G504b\u8217\'92 should be listed, select it and press the continue icon.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  6.\tab}\ilvl0\ls3 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+You should now have a display showing you what the camera is seeing, if the image is dark try opening the aperture and/or increasing the exposure time}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  7.\tab}\ilvl0\ls3 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Create a working directory and then use appropriately named sub folders to store each set of images you take: e.g. C:\\MatchID_WorkingDirectory\\YOUR NAME\\Test1_NoiseAnalysis and then C:\\MatchID_WorkingDirectory\\YOUR NAME\\Test2_RigidBodyMotion etc.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  8.\tab}\ilvl0\ls3 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+You can use the \u8216\'91Single Image\u8217\'92 button to store an image to file in the folder you have specified.}
+\par \pard\plain \s0\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033\sl256\slmult1{\loch
+Experiments:}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  1.\tab}\ilvl0\ls2 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Magnification}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Find the minimum focus distance for the lens by iteratively moving the camera closer to the speckle target and refocusing the lens }
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Look up the Sigma 105mm lens and find the minimum focus distance in the data sheet}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is the minimum focal distance you measure between the camera and the target and how does this compare to the lens specification?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  d.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ Calculate the magnification, how does this compare with the lens specification?:}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  i.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+M = f / (So \u8211\'96 f), where M is the magnification, f is the focal length of the lens (in this case 105mm) and So is the distance between the camera and object being images (measure it with a long ruler).}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  e.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Take an image of the ruler in front of the target }
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  f.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Open MatchID 2D and open the image in the length calibration module and use the line tool to calculate the pixel to mm conversion factor}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  g.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is the image scale factor in mm/pixel for the minimum focal distance?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  h.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Move the camera back to a more reasonable distance from the target (something between 50cm and 80cm should work well)}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  2.\tab}\ilvl0\ls2 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Lighting}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Explore how the lighting can be adjusted using the aperture ring on the lens and the exposure time set in the software.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ How else can lighting be adjusted?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Adjust the lighting to achieve a histogram that fills most of the grey levels without any saturation}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  i.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+Open the aperture all the way and adjust the exposure from this point}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  d.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ Why is saturation a problem for DIC?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  e.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+With the aperture fully open focus the camera on the speckle pattern target}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  i.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+HINT: it can be easier to see if the target is in focus by zooming in on the image using the mouse wheel.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  3.\tab}\ilvl0\ls2 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Speckle Analysis}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Take an image of the target}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is the minimum number of pixels per speckle?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is the speckle size in pixels for the image you have taken?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  4.\tab}\ilvl0\ls2 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Grey Level Noise Analysis}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Take at least two static images}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Open the images in either ImageJ or Matlab and subtract them from each other}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  i.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+HINT: in Matlab look up the \u8216\'91imread\u8217\'92 function. After that you can subract the image arrays from each other directly: imDiff = im1 \u8211\'96 im2. Then calculate the standard deviation: imNoise = std(imDiff(:))/sqrt(2).}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ How many bits encode the image you have taken? What is the dynamic range for your image in bits?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  d.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is the grey level noise for this camera as a % of the dynamic range?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  5.\tab}\ilvl0\ls2 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Length Calibration}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Take an image of a ruler placed in front of the speckle target.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Open this image in the length calibration module of MatchID and use the line tool to obtain the pixel to mm conversion.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is the physical speckle size in \u8216\'91mm\u8217\'92 for your target?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  6.\tab}\ilvl0\ls2 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+QOI Noise Analysis}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Take a series of images of the stationary images of the speckle target}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Open the images in MatchID 2D and perform the correlation}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  i.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+Open the reference image first}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  ii.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+Use the drawing tools to select an appropriate ROI}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  iii.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+Use the speckle analysis tool to double check you have the required minimum pixels per speckle}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  iv.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+Open the \u8216\'91deformed\u8217\'92 images }
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  v.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+Set the correlation parameters and run the correlation }
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  vi.\tab}\ilvl2\ls2 \li2520\ri0\lin2520\rin0\fi-180\sl256\slmult1{\loch
+The mean and standard deviation of the displacement field can be found in the bottom right hand corner.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is a noise floor and how is it calculated?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  d.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ Plot the displacement noise floor as a function of subset size.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  e.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ Calculate the strain noise floor using the standard settings (subset 21, step 10, VSG Q4 element over 15 data points).}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  7.\tab}\ilvl0\ls2 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Rigid Body Motion Test}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Create a new working folder to save the images called \u8216\'91Rigid Body Motion Test\u8217\'92}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Orientate the micro stage and speckle target so that the target translates horizontally with respect to the camera.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Adjust your lighting and focus as necessary and take a single image to double check your speckle size using MatchID 2D}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  d.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Take a length calibration image using the ruler and get your pixel calibration factor in mm/px}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  e.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Take another static image and then translate the target by 0.1, 0.25 and 0.5mm taking an image after each translation. Rename the image files so you know which one is which!}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  f.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Perform the correlation for each set of images using the standard parameters}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  g.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ How does the mean displacement compare to the value you input on the translation stage?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  h.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What should the strain be for this test and how does this compare to what you calculate in MatchID?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  8.\tab}\ilvl0\ls2 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Out of Plane Movement Test}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Create a new working folder to save the images called \u8216\'91Out of Plane Movement Test\u8217\'92}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Orientate the micro stage and target so the target can be moved towards and away from the camera.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Adjust your lighting and focus as necessary and take a single image to double check your speckle size using MatchID 2D}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  d.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Take a length calibration image using the ruler and get your pixel calibration factor in mm/px}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  e.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Take another static image (0 translation) and then translate the target by 0.1, 0.25 and 0.5mm taking an image after each translation. Rename the image files so you know which one is which!}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  f.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Perform the correlation for each set of images using the standard parameters and calculate the strains.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  g.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+The strain for this test should be approximately dz/S0 where dz is how far you moved the target and S0 is the working distance (measure it with a ruler).}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  h.\tab}\ilvl1\ls2 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ How does the mean strain over the field compare with the calculation above?}
+\par \pard\plain \s0\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033\sl256\slmult1\loch
+
+\par \pard\plain \s2\rtlch\af10\afs26\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\keep\widctlpar\hyphpar0\sb40\sa0\keepn\ltrpar\cf0\f4\fs26\lang2057\b\kerning0\dbch\af11\langfe1033{\listtext\pard\plain  1.2\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi-576\sl256\slmult1\li576\ri0\lin576\rin0\fi-576{\loch
+Considerations for Your Experiment}
+\par \pard\plain \s0\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033\sl256\slmult1{\loch
+There are a variety of questions you need to answer about your own experiment in order to use DIC most effectively to measure what you want (in the DIC guide this is called the Quantity Of Interest or QOI).  }
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  1.\tab}\ilvl0\ls4 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+What is your region of interest (ROI) and required field of view (FOV)?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is the difference between ROI and FOV? Why is this important?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Example: I have a sample that is a 80x15x2mm rectangle. The top and bottom 30mm of the sample are used to grip the sample so my ROI is 20x15mm. I am loading my sample in tension using an electromechanical machine. My sample has an elastic modulus of 20GPa and a tensile failure stress of 100MPa. Therefore the peak strain will be: }{\loch
+{\mmath {\*\moMath {\mr \u949\'3f}{\mr =}{\mf {\mnum {\mr \u963\'3f}}{\mden {\mr E}}}{\mr =}{\mf {\mnum {\mr 100}}{\mden {\mr 20000}}}{\mr =}{\mr 5}{\mr milli}{\mr \u8722\'3f}{\mr strain}}{\mmathPict {\*\shppict{\pict{\*\picprop{\sp{\sn wzDescription}{\sv }}{\sp{\sn wzName}{\sv }}}\picscalex100\picscaley100\piccropl0\piccropr0\piccropt0\piccropb0\picw5214\pich998\picwgoal2956\pichgoal566\pngblip
+89504e470d0a1a0a0000000d49484452000000c500000026080600000074e85fdc00000ed949444154789ced9c095c94d5dec7bf330c9b28388082a22c0a3308
+6ad77c1577cd0515cd72236faebd49924b2ae272cdeb4a2a6a2ef95676e3aa69a5995e2b23972cb4b42cc54f6e0c03e2868a0a2a82b2cef23e330308dc118d61
+c6a5f9f24139e7ff9c39cb3cbfe7fccf99f31f8956002b56ac942179dc0db062e549c32a0a2b562af1d713853a9323716f33f55f4e2c3db28aaeb6e56c79496c
+9a11cd27e7eca95d984541b371ac5e3e82668e8f68b7f24cf017128596ecc40dbcb3fa7b2ea5ff4262d64b95ecf738f8f660e6e62ce658fc40dc35e9ac7fb90d
+83def6267165176a3dd46ee559e1318a42cbb52f26b2c665054bfa58e6516be7379098cd63c858d38d6f565632def98e0f3eb94d8fcffae22e12d2368d097fad
+3bd1633f207e5e1786f210bb8b45ba60c502584614dadb1cdf18c3c275df936eef81cdc55fc9f07c81d6dead88fcc8c1224d0011b55ca5c2ff1aa3d6e29387f9
+2ddf87379bdef7a71c0383699217c7e193c5bc4cd5f6a19d6d8dbdac95a7100b8822975fe68612b6b1010bfe7380496dea72f5fd5eb43d389c8fbf18463d91f9
+5bf028145d49e7bad605a98bb82c4f2c7547ca752e5f2da2485bb51daca2785630bb283467e398b9329d7e9bf6f2561b57741aa8dfd40fd5ecedfc983b8c579c
+cddd8247414b614181f0af04dbf223626b2bdcea1a0af20bd0fd3cd85e28d89c7842f46dc544cc2c0a2d99097b49b4efc9b4beae156f9ac2eb64dc145c1967f1
+830a5b1011f68e8e88c9a1b8b85c76b1304308b975059b0355d91dac82788630b32834dcc8b88ed6a3155e76a5795a6ea7a79363e386bbf4491084013bafc678
+8a0e732b5b10aaa78d3e4f73338b5b78d0c2cb163baab65b797630b32844b8d415fca3fc7c0a4a0f9368b339b8ff18929085747e225c2703b62d3b1252eb3394
+69c2fa20d0b01b764f718af3b5daf28f16829b24aadafe2ca1b9bc9f55d326f18ff86036656c27fc4ec5f4b03a8fbb85e6c5cca210e3d5e765dacc5dcfb789f7
+e8dcce89dc232b58b6af21915f8dc2e7c9992804372e8cf163dc18fe793c996143a8a7b9c8b68d09788cfe9230fd76ebc3ec66469bc5fa7e8d787d7761b94c31
+0d22f772e1c39ed83db0e0a390cf81a8d60cfbfd35f61f9c4ef346dd19d8ce8d7f9e0e4426e85f5ca762ba72996b87a69b54bbf9a9d43f9baaaf36fb42db4636
+914d1bae10393994b086ae14de9312fee51ea2ba5afa71a3e1d2beb5c47d9f42ea4f4a8a05d767d9c428f6fab4e7d5a8a13477a845e745db59342d8af0fe5b91
+16df204fb6929d8bbb0a4b681d0fb39b1f91c30bccff6e1a1dcb2626612dd4a8550dec7b4970973d4feb225f5cf48b2315a949a98865e3692a3196ae58c69c14
+a77ec77e75287d034db9552bf7ef61579b1d5b7c07ae60cf40f3d7543562bc4327b33054f7f7fb6c317649ad60467fb897d10f7a8987d9cd8d8d272dbbf7a4a7
+7d4dbfb02dcd233f25be34a9c92059994be38e0106c1574e1b2b630e8a4eb372ec7ceeae124461d20bfdb9b6ea45a1ced8cfd2a90bd875dd1d9f7a2aae9c2de2
+e58df144b73468467bf732496959145771c85c6423c5b7b9cf2329f16158ba3e4b63cefe69b37f62c5c8b1ccfba1191f1c1bcf859953f8bf9f0be9141bcfe7a1
+c9cc8b8826eeb83d2fafdbcbbfc31b23166ef884b5d399327b3b1eab2eb2f70d0f44aa541467c5c822fc0d3748e574a532fb8432d547cbed5f56f2e6ac9d64bb
+d74394718eac8e2b4898e6c0c619e399ff5b2eade60f45f95c27daa47c42ccd76ec4242ec7fedd492cdc91c3c8fd2758d2c6863b273f67f1e22f481566747546
+1ad70bb53c37f3273e7ae9ce7ff58f5b0759363a82053f06f3d189c95c9b339dd5bb9391748c61d75793757d2c60df9ce12cc99a47d20fe3f1160b6ec6d60f39
+ee79dff1529ddec8e4f1dbc932fe61b01e51adbebc7b6009dd4d736e1f4b7d96a6dafd2b3cc4d2c12fb25178d7f2730a7169f122136646d2ade17d074a54b70b
+91c35bb2f0d079fef3c109a6ac3b42af5521f458399589ca01446e3d4ac7a866bcba398195e1a3908a1bd06d7877bc66ff8cbfdcb06daeb99e8c32db8bb63283
+8b5b394da532a60dc60956472e226fda59768f7647941f4fcc9aba3834789ede2d9d98716a08eb76cea3a5703b16ee4e62f9ee33ec5bb28676c33ee43de738f2
+fd25dcfd751e7d5e3dc2d09d3b88fd5b6dd48ac584b4de81b7ccfebfdaaa7fc6b87665dc2b412c3a7c89adb109442c4c20759a50a6cbbfd9a198a013850d52b7
+ba48ae3960a72f21b819c326e05daeddb6ede6b0fff81cd33aff27b0747d96a65afd13b93372db4986db3962a7dba0c83fcb96717de8d72b9dbd4797d1a9ec44
+a28ab3494a8aeab4e18d85d3e9eeaae288488d56d58457e78fa7ad7321f16235f62e2e941eb051a52691a20d604080a424ad205514c0687f1ba36963654a51a7
+7ec488911f93aa32d207b13b83d6ee627648b95590e62637b20a484f4ee3aed69d3a8efd98334b67284079e62cb6f2609aeaabd5702559498e6d1d7acd8ee3ad
+207b343d57a0b2394e4ce46ac4138f325910848e42c569cedac909f22b6d7fe5b6eac6280595b4339396cda78f5484ea0f0922b10b5267b14e141202c3dfa4cb
+ab4b18da7f0bc59941cc4d58439889ab4791a87a7e4d750301ab5bdfe3a0ba7d9438943b38e9e84f78f44862dbac63f3e1183af52a9d52f24949ba48ddd0e5f4
+7215c6449b8b527195fa7d87d255b705aeb94c724a3e7e61fe253b565a7294c964b80522d79fb9d19225a46f356885dcd958da5899fbd8048c63cb91718fde29
+bb8e44cee8c2cee93d78fe7414efae9ecd80a6825cd5e9289479f8f5959788d7b0d8b7edb69a3141864595d841b01c58cfc6d4ff61d6307f0c125093765a4191
+ff10e4f60f6a6b1e29c997707e6120dda586bc82d4642e3ac9903714449193104da7571219f3e349a29b1b3fadaabd798603c7d229acca079634a455f796d4af
+816d564bd767696aaa7fe27a1eb88bb2b991a9dba62d11852a8d33296a025e931b76a55429425a8bbc9fdcb01e285672265582ac996fd94da47b6a6a03c290e9
+335482a85211c986132031963656c6141c786eca779c6cbf817f4e9cc9e08ea788fb7d07a3eba790946a8b7c5a13433b35570591e4e2dd455eee98bee0ea1f3b
+4ea67b6b82ca062a1fc5e934ece541f8da3ca0adaab324293504bc2e2bd96952714e3773f88f44260c9ae4f0a79b486bb180bf073df8f8b63afd00ebdfdfcded
+aa7c60c7aeccee7aff4d3425f4dbd2f5591ad51fefffe9fee98eb6afdee6cba488204adf5bc327eaf568d6b0dc49e37c2549179c9007364457549bab4471d515
+b9dcddb05eb8ac4099e74baf80922d2cdd4c927c0569a09c7afa0237495166e1112c332cf22ba78d9531813be7cfa3f2f5a37e4804ebf649c9918d62db8fd98c
+e824b433df8fdeb292bee916fb29c2627f5cd3725ba65af2f3f2f4ef7dd9bbaf5272e24c314d870762ffa0b6e6a7a0b8e44460332f0c598582f0cfe3280fa491
+902191ba49d1ec3fcab12c355ef53564256ee3f38b6d993028a06cf0257f9bc0e66f2698d6fb3f81a5ebb334d5ea9fcd1d7efbfa2786be1e8497fee6cde6d0fa
+2f480bfa5f3eee70df47579d13fc6795e0ffcb0c796a9d3fad91d14766b8958a539248b591f1965fc9ada5169e9ac24c220b9595ed34090f4d028606184f1b2b
+630287562f237fd1870cd1b9766add69e47af8f938a1c9bc4ea6b636cec2da5e9d9f8f2a5341724e633ac8cafbf536780735c3e95a3cebb74da27997db7cbbf6
+6d36a7d8d325a8642634d256559a3026ea00c6948c11ea73c2cc514cc070c33592b6516b997e7212afcbbc98d2d09b167d27b2689e3f26cf8a566a167b3f9e53
+4da05ffb2ff1f270429d9d4991cf7076ec8aa675b91daa0265121704dfb85923bd72c8552ab82c9513a89f7284c5aa22991cb18a1fb6fc4a8f88f6b8df55929c
+aee6da813836b79dc2485f217d0d7dfacb90c90cf5ac980e6f292c662b9519dd565aed6ed5f1c82076407fb6793a907b25933a511b99dbcd1e496e1883823712
+d3a3030707ce24365410b358c658ff8a3274796901effe7d08d3224238d23992a513dbe3b62691a49ddb38dd6f34cdef556ceb28a1ad05290a61fd202f1923fd
+a091744ec5eddfb7b3effc0c2462cfdec4ec4921a6dadd7a3805273e65c1f2f788db9208f20e04d71724a7d5a02aca233bfd1cee33fee0c7b7bc316926569de0
+bdf037d8906e8fbbbb234537b3a9d56e3cb1ef8ca2659d9279dfd418ecc719c36ddb8e597b1299f590cb6a877f494e78694a8474d437dc1b559a16d324ea3005
+51e50ad41dc157f74694cb18cb9e82b155a48d95a93e5d667fc54fb38d189c5f20f66826b1651983b87ad7c875b632c66c3a29fcdecf1a5c58ee6e36d2d68a63
+24e03484ad3943ca921689bc73786e040b5eff95cd5fa4d3ffbd1f58d7b3f4d1a625e35f2359ece7699a207468aea364183b8e4ca5894e733907991a12ca8b85
+9e9cfea837754c8ec1b6c670ff55b0508cb6864c85824cb19c6059c52a6d7dfbd0bb790d34432267d8d4007c4afc3e91737bfa7773e383eff771aab8371df24c
+8cc136d56e8de17e6ab090285428cfa4a071ed4f33cf9239a1388b8c6c671a848ea07f4d5421f6a173e78a596a950aececf51f4a9a1a836daadd1ac3fdf46019
+51686ea05064229607533a51dcddb790c5058b593bd84ce73434973875269786dd7b112c313d06db54bb3586fbe9c132a2d07f80a44624de444458bcb0fcd392
+9d9643d80ef37d9347c1b1f56cbed487855bbbe228d477cba4186c53edd618eea7098b884273438122d38690e5dbd9fd968fb0a82e62f7e4c9dc6b629eeab559
+fb9839e567fa7dfa3523bd0d4f6ed362b04db55b63b89f262c220a95f20c291a3706043728d965b2a5ebdc1844b56bbe2e6d56027346adc535f66be676beff65
+09a6c6609b6ab7f2f460015168b8ae5090250ea44559f494885a6e6ebaf30eac5a728e31730621ad8147a9faca2ea2dfdc867ce956225b563cd1686a0cb6a976
+2b4f0f1610858a94334a341e83cb1dda325070783307b4a398540382d0a46f67ec805824e3e6e27bf567f65c2d3188eb12d8a91dbe26c7603fe131dc566a0cb3
+8a427beb17e2566ce0b36f6fa0c9f98e99bd4ea17f86ea3ecd2ebc47e6854c3a6f78a7461a517c62175f9f38c6ed37071057de60db8ee5498788f6373506fbc9
+8fe1b6523398551422d70e442cd6fd7e6cce6af4d8f7ff845b9a4faabec8d418ec273d86db4a8df017fa2a7e2b561e0dab28ac58a984551456ac54e2ff01676d
+ccc5dbb2f63c0000000049454e44ae426082}}{\nonshppict{\pict{\*\picprop{\sp{\sn wzDescription}{\sv }}{\sp{\sn wzName}{\sv }}}\picscalex100\picscaley100\piccropl0\piccropr0\piccropt0\piccropb0\picw5214\pich998\picwgoal2956\pichgoal566\wmetafile8
+0100090000036f1200001000920d00000000920d000026060f001a1b574d4643010000000000010091420000000001000000f81a000000000000f81a00000100
+00006c0000000000000000000000c40000002500000000000000000000005d140000e503000020454d4600000100f81a00009900000004000000000000000000
+000000000000c5000000260000003400000009000000000000000000000000000000accb0000fc260000460000002c00000020000000454d462b014001001c00
+0000100000000210c0db010000005e00000069000000460000004c00000040000000454d462b224000000c000000000000001e4009000c000000000000002440
+00010c00000000000000214000000c00000000000000044000000c00000000000000110000000c000000080000000b0000001000000060000000600000000900
+000010000000ec090000ec0900000c0000001000000000000000000000000a000000100000000000000000000000140000000c0000000d000000120000000c00
+00000100000021000000080000001e0000001800000000000000000000005d140000e50300002100000008000000520000004c010000010000005afeffff0000
+000000000000000000009001000001000000000000004c0069006200650072006100740069006f006e0020005300650072006900660000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00
+000018000000180000000c00000000000000250000000c00000001000000540000005400000000000000610200009e0000002204000001000000000000000000
+00000000000061020000010000004c000000020000000000000000000000000000000000000050000000b50300009f000000220000000c000000ffffffff1400
+00000c0000000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff000000000000
+0000000000009001000000000000000000004f00700065006e00530079006d0062006f006c000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c0000001800
+0000180000000c00000000000000250000000c000000010000005400000054000000d4000000610200002b020000d2030000010000000000000000000000d400
+000061020000010000004c0000000200000000000000000000000000000000000000500000003d00000058010000220000000c000000ffffffff140000000c00
+00000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff00000000000000000000
+00009001000001000000000000004c0069006200650072006100740069006f006e00200053006500720069006600000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c000000180000001800
+00000c00000000000000250000000c0000000100000054000000540000007b020000720100004e030000330300000100000000000000000000007b0200007201
+0000010000004c000000020000000000000000000000000000000000000050000000c3030000d4000000220000000c000000ffffffff140000000c0000000d00
+00002100000008000000270000001800000002000000000000000000000000000000250000000c00000002000000260000001c00000003000000050000000000
+000000000000ffffff00250000000c000000030000002b0000001800000046020000dc0100009a030000f0010000220000000c000000ffffffff140000000c00
+00000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff00000000000000000000
+00009001000001000000000000004c0069006200650072006100740069006f006e00200053006500720069006600000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c000000180000001800
+00000c00000000000000250000000c0000000100000054000000540000007b0200008403000083030000450500000100000000000000000000007b0200008403
+0000010000004c0000000200000000000000000000000000000000000000500000004500000009010000220000000c000000ffffffff140000000c0000000d00
+00002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff0000000000000000000000009001
+000000000000000000004f00700065006e00530079006d0062006f006c0000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c00
+000000000000250000000c000000010000005400000054000000b90300006102000010050000d2030000010000000000000000000000b9030000610200000100
+00004c0000000200000000000000000000000000000000000000500000003d00000058010000220000000c000000ffffffff140000000c0000000d0000002100
+000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff000000000000000000000000900100000000
+0000000000004c0069006200650072006100740069006f006e002000530065007200690066000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c0000000000
+0000250000000c000000010000005400000060000000ff050000720100007908000033030000010000000000000000000000ff05000072010000030000004c00
+00000200000000000000000000000000000000000000540000003100300030000000d3000000d3000000d3000000220000000c000000ffffffff140000000c00
+00000d0000002100000008000000250000000c00000001000080280000000c000000020000002700000018000000020000000000000000000000000000002500
+00000c00000002000000250000000c00000007000080280000000c00000003000000260000001c00000003000000050000000000000000000000ffffff002500
+00000c000000030000002b000000180000002b050000dc0100007b090000f0010000220000000c000000ffffffff140000000c0000000d000000210000000800
+0000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff00000000000000000000000090010000000000000000
+00004c0069006200650072006100740069006f006e00200053006500720069006600000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c000000000000002500
+00000c00000001000000540000006c0000002b050000840300004d090000450500000100000000000000000000002b05000084030000050000004c0000000200
+00000000000000000000000000000000000058000000320030003000300030000000d3000000d2000000d4000000d3000000d3000000220000000c000000ffff
+ffff140000000c0000000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff0000
+000000000000000000009001000000000000000000004f00700065006e00530079006d0062006f006c0000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00
+000018000000180000000c00000000000000250000000c0000000100000054000000540000008209000061020000d90a0000d203000001000000000000000000
+00008209000061020000010000004c0000000200000000000000000000000000000000000000500000003d00000058010000220000000c000000ffffffff1400
+00000c0000000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff000000000000
+0000000000009001000000000000000000004c0069006200650072006100740069006f006e002000530065007200690066000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c0000001800
+0000180000000c00000000000000250000000c000000010000005400000054000000f50a000061020000c80b000022040000010000000000000000000000f50a
+000061020000010000004c00000002000000000000000000000000000000000000005000000035000000d4000000220000000c000000ffffffff140000000c00
+00000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff00000000000000000000
+00009001000001000000000000004c0069006200650072006100740069006f006e00200053006500720069006600000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c000000180000001800
+00000c00000000000000250000000c00000001000000540000006c000000fd0b000061020000e10e000022040000010000000000000000000000fd0b00006102
+0000050000004c0000000200000000000000000000000000000000000000580000006d0069006c006c00690000004c0100006e0000006f0000006e000000a500
+0000220000000c000000ffffffff140000000c0000000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c01
+0000010000005afeffff0000000000000000000000009001000001000000000000004c0069006200650072006100740069006f006e0020005300650072006900
+66000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000160000000c00000018000000180000000c00000000000000250000000c000000010000005400000054000000310f000061020000531000002204
+0000010000000000000000000000310f000061020000010000004c00000002000000000000000000000000000000000000005000000012220000230100002200
+00000c000000ffffffff140000000c0000000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c0100000100
+00005afeffff0000000000000000000000009001000001000000000000004c0069006200650072006100740069006f006e002000530065007200690066000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000160000000c00000018000000180000000c00000000000000250000000c000000010000005400000070000000891000006102000041140000220400000100
+000000000000000000008910000061020000060000004c000000020000000000000000000000000000000000000058000000730074007200610069006e00a400
+00006e000000a3000000db0000006e00000099000000220000000c000000ffffffff140000000c0000000d000000220000000c000000ffffffff140000000c00
+00000d000000460000001c00000010000000454d462b024000000c000000000000000e00000014000000000000001000000014000000050000000b0200000000
+050000000c02e6035e1404000000020101000400000004010d0008000000fa0200000000000000000000040000002d01000007000000fc020000ffffff000000
+040000002d0101001c000000fb020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+040000002d010200040000002e011800050000000902ffffff000400000007010300030000001e00070000001604e6035e1400000000030000001e0005000000
+0902000000001c000000fb025afe000000000000900101000000000000004c696265726174696f6e205365726966000000000000000000000000000000000400
+00002d01030004000000f00102001c000000fb025afe0000000000009001010000a1000000004c696265726174696f6e20536572696600000000000000000000
+000000000000040000002d01020004000000f00103000700000021050100e50061020000040000002701ffff030000001e00050000000902000000001c000000
+fb025afe000000000000900100000000000000004f70656e53796d626f6c00000000000000000000000000000000000000000000040000002d01030004000000
+f001020008000000fa02050000000000ffffff00040000002d01020004000000f001000007000000fc020000000000000000040000002d01000004000000f001
+01001700000026060f0024004f4f2a2c0a00f92f48ae02000000d400000061020000010000003d0000000000010000001a000000380502000500050002012502
+02010a02f6010a02f6012502020125020201be010201a301f601a301f601be010201be01040000002701ffff030000001e00050000000902000000001c000000
+fb025afe000000000000900101000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01010004000000
+f00103001c000000fb025afe0000000000009001010000a1000000004c696265726174696f6e2053657269660000000000000000000000000000000004000000
+2d01030004000000f00101000700000021050100f30072017b02040000002701ffff030000001e0008000000fa02050000000000ffffff00040000002d010100
+04000000f001020007000000fc020000000000000000040000002d01020004000000f0010000070000001b04f1019b03dc014602040000002701ffff03000000
+1e00050000000902000000001c000000fb025afe000000000000900101000000000000004c696265726174696f6e205365726966000000000000000000000000
+00000000040000002d01000004000000f00103000700000021050100450084037b02040000002701ffff030000001e00050000000902000000001c000000fb02
+5afe000000000000900100000000000000004f70656e53796d626f6c00000000000000000000000000000000000000000000040000002d01030004000000f001
+000008000000fa02050000000000ffffff00040000002d01000004000000f001010007000000fc020000000000000000040000002d01010004000000f0010200
+1700000026060f0024004f4f2a2c0a00decd4d6502000000b903000061020000010000003d0000000000010000001a0000003805020005000500e7032502e703
+0a02db040a02db042502e7032502e703be01e703a301db04a301db04be01e703be01040000002701ffff030000001e00050000000902000000001c000000fb02
+5afe000000000000900100000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01020004000000f001
+03000c000000320a7201ff050300000031303000d300d200d200040000002701ffff030000001e0008000000fa02050000000000ffffff00040000002d010300
+04000000f001000007000000fc020000000000000000040000002d01000004000000f0010100070000001b04f1017c09dc012b05040000002701ffff03000000
+1e00050000000902000000001c000000fb025afe000000000000900100000000000000004c696265726174696f6e205365726966000000000000000000000000
+00000000040000002d01010004000000f00102000f000000320a84032b0505000000323030303000d300d200d400d300d300040000002701ffff030000001e00
+050000000902000000001c000000fb025afe000000000000900100000000000000004f70656e53796d626f6c0000000000000000000000000000000000000000
+0000040000002d01020004000000f001010008000000fa02050000000000ffffff00040000002d01010004000000f001030007000000fc020000000000000000
+040000002d01030004000000f00100001700000026060f0024004f4f2a2c0a0017962805020000008209000061020000010000003d0000000000010000001a00
+00003805020005000500b0092502b0090a02a40a0a02a40a2502b0092502b009be01b009a301a40aa301a40abe01b009be01040000002701ffff030000001e00
+050000000902000000001c000000fb025afe000000000000900100000000000000004c696265726174696f6e2053657269660000000000000000000000000000
+0000040000002d01000004000000f0010200070000002105010035006102f50a040000002701ffff030000001e00050000000902000000001c000000fb025afe
+000000000000900101000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01020004000000f0010000
+0f000000320a6102fd0b050000006d696c6c69004c016d006f006f00a500040000002701ffff030000001e00050000000902000000001c000000fb025afe0000
+00000000900101000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01000004000000f00102000800
+0000fa02050000000000ffffff00040000002d01020004000000f001010007000000fc020000000000000000040000002d01010004000000f001030017000000
+26060f0024004f4f2a2c0a00a455b9b602000000310f00006102000001000000122200000000010000000f0000003805010005002510ca012510df01610fdf01
+610fca012510ca01040000002701ffff030000001e00050000000902000000001c000000fb025afe000000000000900101000000000000004c69626572617469
+6f6e20536572696600000000000000000000000000000000040000002d01030004000000f001000010000000320a610289100600000073747261696ea4006d00
+a400db006d009900040000002701ffff040000002701ffff030000000000}}}}}{\dbch\af12\loch
+. This means my sample will elongate by appox: }{\loch
+{\mmath {\*\moMath {\mr \u949\'3f}{\mr =}{\mf {\mnum {\mr \u916\'3f}{\mr L}}{\mden {\msSub {\me {\mr L}}{\msub {\mr 0}}}}}{\mr ,}{\mr \u916\'3f}{\mr L}{\mr =}{\mr 0.005}{\mr \u215\'d7}{\mr 20}{\mr =}{\mr 0.1}{\mr mm}}{\mmathPict {\*\shppict{\pict{\*\picprop{\sp{\sn wzDescription}{\sv }}{\sp{\sn wzName}{\sv }}}\picscalex100\picscaley100\piccropl0\piccropr0\piccropt0\piccropb0\picw5677\pich1061\picwgoal3218\pichgoal602\pngblip
+89504e470d0a1a0a0000000d49484452000000d70000002808060000006db96f7900000c0349444154789ced9c075854571680ff1906101429825d415410455c
+cdc60696d86297e88aae05cdaab1a06b239ae25a80d86389899a685063c1968286185b2c51a389e55303382396889a2888060b6566deec1b4069c619461986f8
+7ec5cfb9f77039f770cebde796f7143a112424245e388a92564042e2ef8a145c1212c584f9834bb8c2cace8d1973a8218b948798e0212f24927e6e23e10b97b1
+6ae3496cfc0713d4ae3d834307d1b89cd9b5959030193307978ee4e839ec72698ba7ee04172e6ac0c3a6905419bf81cc187a8c7551d7e83efd531675282c2321
+61e99837b81e1e617ea4239396fe93d9dfec42a5ba8dd0b13a85e72e81dbf1f124c9bdf1f596325789d289193d574dec270bb83d6835adab9f25ca5920263e01
+2d4f0b2e0daa581542851ef8542a5c2b21511a305b7009891b083bf21a61932b22c31d4f7719492a1529bab654921514be4d7c7c12726f5fa4894ba2b4621ed7
+d5dd6557c426dca744e36da52fa88ea7872d9a9fe3d12fbb2a591790d7a8885509b8f5f2a1a23471499452cc125ce93f2f6471da5b44f9dbe794d8e05eab3ab2
+68251753750454c83f7509b7e2884f96e3e5eb2d9d1548945a8adf77b52a56ce3a438fa561b83d89212bdc6bbb63a54e203e410b15f2aba151c5a212dc08f471
+cbb71ed3a6dee1be5d059c0ace74121216483107978e3fb64ce7ab86d3d85dd72a4fb90c278f5ab8e80ea3bcf8009a39e5a913b8157f8164ab7af87ae78da287
+ec9b15c183998be92305974429a078832b753f111fdb307e470bec0a5459b97be26ea52621fe121a5ec9a3887ea75089e0d61b9fdca94e5cb6ed62a3aa0633ca
+3e873e257d80fd288e2fa684b2eeb22de5329249f719c9920583f029681c63e59f55af4b26b25b7586edcac8d3a09c2aa376737545074c3e39d49ce5a3a0b758
+93688babab1d9977ee61df7c0cf33e08c6cf41665a3f8dc59476b5491c5ffd3e133f2bcbdce38b6963c681b918834be0dafa39ac39739a6dbe55082958ad4be7
+9e46c031e98e28995394728cd50bd7b0f1dbdb08f7f732bd4767f4ab3421f32129894aee76d9464d9337384afa00fb2187deefc3f4d4d99c8c7903572191c8c0
+57e9fd7e4d4e2d6a8d7d91e50db7272bf31a33bf9b8cff138792615bbd3185fc4b27a093c9c9bff2d521e864c80bede4de42497fbe3c3e114f3119d1a51e6262
+b34ef4c8a8ccaf9fbe8e4391fb595cf6d371efd41a3e58b2976b89c73895dccbe49f6c2ac5185c726a86ece761a1a8fa6b642e2d19315bffb5eac5ab53d207d8
+7f7ec7f2757769bfb10bae7a87b5aa41d09bed081dbe9c9819ade9eb5844790cd497d79755c6af5d073ad83e4b310db1f30299e63097a8105fcae4945ddd3c8c
+916746103d2f20a72c078537fd27d615b38eec8fb2f22de8deb602cbf7eee1bcfa755a3e2a623f8bcb7e2236b5de2062fd507e5fda961d8b4cfcb9cf4196f768
+7fdfc7dc89b3d879cb1577370d371232095c1b43a85fb673e91e5c27ee5232ea673c9c22b372c6c3d71dc782239d45f0620fb04db187fadc514ea4b933ba76ee
+bc6157af019e8f5673f49c9abeadf2cf2786e40331d05e803176d1a3a0c1b830fc7b0733d4611beb833d48da31967ecbabb320da3f7f60e991bbd3aa55fe22ad
+46cc026c6cb19119d74f73d84f3f4bdbbb38c393bca830ba7b875938783833f6fbb0fce418ae4e9dc0c73f6610302f864d9d2e30634428ab4fdb12b87237ab3b
+5d619191b29f07d5c8f22b317ad2d9336d2073926710b77f8c987689e9dce6159cae9cbb01a1f9752de3c76c27f9aff54466df850f0fcea19d055e037cd107d8
+a6d823f34622b7748e383be606acdcd915676e71fd66a6f829bf731892cfd4196a4f24e30873fbf460add88fb4d40c1c1bf62064ea28da562de088659b3079cb
+326606f667685c232e1fb463667438ad9d8d1829856b9c8fbd4fd5761d69a030ae9fe6b09f31c89c5a336aa09fe81b57f86af95926ac3c4ec7c5cd68bf682263
+953d19b5f917fc27f93060fd011605051749561fd60afdb6b8730527147f94c91a79b2d2b9fe21d4cca38475f369ec3b3dadc8ca5b04c570805d747be8c8484f
+17ff55609d3760adad459710484fcb10ebcae659f318924f47ffe799edc95c19bcf51c036decb0d1f7232d81a8919de9d63191ddbfcc27a0c02245e6d4928953
+1ad1a8d73734893c4f6723af9da59f8c64fdb5ce846d6e839da8518a11fd2c7efb198b86843825990eaff256d8dbb473d1705ca645a7f164c0cc31342d9f418c
+5c8bada3a338836bb860b46c360afddf7a41a3693d600e7dbb47a14eaacff4034be9fa3cbb72223259f1e787c63c446d1907d8326cedecc4612b15b53a4fb15a
+9c81c45227bb32051cc390bc9df80b34dc9ea24c9e6d34bb3a04850e66deab2b597f3482808ef9538c47679732e07fa94cdfb38c6353fa33c3339a59fe4ecf74
+585df21ea64ef8916e1ba2199cb3d354b47e1a4b51ed672c69a8e27ec3a9d3023aba882de8eea38cbf49c52e7d69a35fb30ad7b9a04aa356d73aa2d71445361b
+45ea815002fa9d62e80fe708f57dfa9ea6ee4e2c074f2692f1ac1c595195c6edfc2cebba52311d609b620f9b6a35a82c3b4aca3d3117ca49b9853bc9a4508986
+d50aa73486e46d285a7b7ae46e957095dde376927e7b3e37b83255910c19b69faeebb6324cf481e02d5a82fbf6e3c3555f11dae4e9a3ac2ef900d38297e1322f
+9ae9ad5c9e38b731fd3487fd8c427349cc52b4d47dd33b3ba9ccca5a747877cb1958d54a622f2af0f2f1c04a73d178d99ce61547377cc1a586b3f877fdbf3e2c
+d0261e24f2935ddc7d568e6cd786f7dae41aa3e45fcd517c07d8a6d8c3dacf9f66f61b515e12d707f5b26dfd30fe3c57ec9bf26ec3c2ce6148de5a66a0bd3fbf
+63c9560fc68da8ffe4979ded8c6ef854cdbb4da1e5ea4f5768b37213637306576bcf41acd9a026e28092f4264d0a6d6a686fec2474f456bce76e66945ffee033
+a69fe6b09f51a42989bb5a16ef7a55b30652dd7d25f1375df0f676cd1a2c84ebf1281f79d0b1ae6dd164735038577046d8f70b2793b554ab28907c6a2b9b7e6b
+4a48efbab911f88f10d6ef28c29eba39d19ce103ff8eaca83c97c35f0fc7f3f174538c07d826d9a37c57c60cadc0c04d312475fd176ec26f6c5d7b804a43b6d1
+55bf8d2c5ce6b39ead98a99dc6a16f4753d7903c06ea1ffcc989e8c3f41d569f6a59de708f23915bb854ff3fac6a99d719adf01a128e570175cbf8bc49844fe1
+6e0889db19de731e8a91d3f1b8f923dfdfcca9903b512fa0391e06f53693fdac0cb688e6721c2a4d5d8678e504fd45f1b3e04567af6c8f50abe2b868e5c57f6b
+298a24fb1845d349cb78fbdc388679556342d59a34ec3296f01975304237cb40e64095aa7624fd7090f36a31b8b2060e4b3bc0d6634fabf0ed844f9e4450f7cd
+38ab6ff3c86b115fcf6e4376ccea0accf686e40dd4dbd6a29126846e2db651ad5259b4f792c8741fc8973b4379e5397674d56777127df6247747f76475de0aeb
+e62c883b42681d437a9b4a51ed27fa80b87e5cbd57c5c5c34ad4e2ac3d7fec2476bbb760c0a4bef88ad371ba328eab65bdf0a99e35fa705f19cf75676fea654d
+970237c42c2655ae617fd44f3477345eb6fd88165967710a79e5d789f85e45c47375dc785ef8f522ab3a0cfdf85dbe1c9289ef9301d9c20eb01f63df80212b76
+33e46975f2da8c8cb9c94863e50dd58bcefecef7a778e7f9342e846df775a408eb9e2d64486f532992fd441fe8349eb04efaff7f42d453bea55cd03652831e7f
+92e11cbc8387c1b9dfef39e928e9931e7f1665fb192b9b8dd99fe878d1d78b1efcba89b0b967e9b57809b52d693345e2a5a7041e977a91d78bc434c0a109e33e
+1b400dd32fad4948140b25105c2ff2fd1832cab9d7437ae39a84255202ef2d94de8f21f172607ef796de8f21f19260f6e092de8f21f1b26076ff96de8f21f1b2
+60e6e032e27a9110cbe7ef47925cc391c42bd508993f0c1f0b7c8c4542c210660e2e43d78b74a46c8d607b957062c6d72236bc03e15ff766633f67136f3d4b48
+941c660b2ee3ae176938f1732caeadf54f725a51c7a732678fc5a2e91760c2a3701212258bd982cbb8eb45993c48cdc4c6367b9e92db95417dff01257dbf5e42
+c2142c6cc34e8643791b32d3b3afd30a0fd3b0767090524289528985059782facd7c494a48444b2d94b137f06b56dfd2949490300a0bf35b19ce81efd167ea32
+662f74e446ca10a6054a9b1912a5130b0b2e115b5f462cf9a8a4b59090786e2c2fb82424fe26fc1ffecf39403369fbae0000000049454e44ae426082}}{\nonshppict{\pict{\*\picprop{\sp{\sn wzDescription}{\sv }}{\sp{\sn wzName}{\sv }}}\picscalex100\picscaley100\piccropl0\piccropr0\piccropt0\piccropb0\picw5677\pich1061\picwgoal3218\pichgoal602\wmetafile8
+0100090000039716000010001610000000001610000026060f002220574d46430100000000000100b3b200000000020000000020000008020000082200000100
+00006c0000000000000000000000d60000002700000000000000000000002c1600002404000020454d460000010008220000b500000004000000000000000000
+000000000000d700000028000000380000000a000000000000000000000000000000c2dd000072290000460000002c00000020000000454d462b014001001c00
+0000100000000210c0db010000005f00000064000000460000004c00000040000000454d462b224000000c000000000000001e4009000c000000000000002440
+00010c00000000000000214000000c00000000000000044000000c00000000000000110000000c000000080000000b0000001000000060000000600000000900
+000010000000ec090000ec0900000c0000001000000000000000000000000a000000100000000000000000000000140000000c0000000d000000120000000c00
+00000100000021000000080000001e0000001800000000000000000000002c160000240400002100000008000000520000004c010000010000005afeffff0000
+000000000000000000009001000001000000000000004c0069006200650072006100740069006f006e0020005300650072006900660000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00
+000018000000180000000c00000000000000250000000c00000001000000540000005400000000000000610200009e0000002204000001000000000000000000
+00000000000061020000010000004c000000020000000000000000000000000000000000000050000000b50300009f000000220000000c000000ffffffff1400
+00000c0000000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff000000000000
+0000000000009001000000000000000000004f00700065006e00530079006d0062006f006c000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c0000001800
+0000180000000c00000000000000250000000c000000010000005400000054000000d4000000610200002b020000d2030000010000000000000000000000d400
+000061020000010000004c0000000200000000000000000000000000000000000000500000003d00000058010000220000000c000000ffffffff140000000c00
+00000d0000002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff00000000000000000000
+00009001000001000000000000004c0069006200650072006100740069006f006e00200053006500720069006600000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c000000180000001800
+00000c00000000000000250000000c0000000100000054000000540000007b0200007201000068030000330300000100000000000000000000007b0200007201
+0000010000004c00000002000000000000000000000000000000000000005000000094030000ee000000220000000c000000ffffffff140000000c0000000d00
+00002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff0000000000000000000000009001
+000001000000000000004c0069006200650072006100740069006f006e0020005300650072006900660000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c00
+000000000000250000000c000000010000005400000054000000b903000072010000a604000033030000010000000000000000000000b9030000720100000100
+00004c0000000200000000000000000000000000000000000000500000004c000000ee000000220000000c000000ffffffff140000000c0000000d0000002100
+000008000000270000001800000002000000000000000000000000000000250000000c00000002000000260000001c0000000300000005000000000000000000
+0000ffffff00250000000c000000030000002b0000001800000046020000dc010000bd040000f0010000220000000c000000ffffffff140000000c0000000d00
+00002100000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff0000000000000000000000009001
+000001000000000000004c0069006200650072006100740069006f006e0020005300650072006900660000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c00
+000000000000250000000c000000010000005400000054000000ca02000084030000b703000045050000010000000000000000000000ca020000840300000100
+00004c0000000200000000000000000000000000000000000000500000004c000000ee000000220000000c000000ffffffff140000000c0000000d0000002100
+000008000000250000000c0000000a000080280000000c00000001000000520000004c0100000100000003ffffff000000000000000000000000900100000000
+0000000000004c0069006200650072006100740069006f006e002000530065007200690066000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c0000000000
+0000250000000c000000010000005400000054000000b9030000ed0300003c0400000f050000010000000000000000000000b9030000ed030000010000004c00
+00000200000000000000000000000000000000000000500000003000000084000000220000000c000000ffffffff140000000c0000000d000000210000000800
+0000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff00000000000000000000000090010000010000000000
+00004c0069006200650072006100740069006f006e00200053006500720069006600000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c000000000000002500
+00000c000000010000005400000054000000f6040000610200005f05000022040000010000000000000000000000f604000061020000010000004c0000000200
+000000000000000000000000000000000000500000002c0000006a000000220000000c000000ffffffff140000000c0000000d00000021000000080000002500
+00000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff0000000000000000000000009001000001000000000000004c00
+69006200650072006100740069006f006e0020005300650072006900660000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c00000000000000250000000c00
+0000010000005400000054000000af050000610200009c06000022040000010000000000000000000000af05000061020000010000004c000000020000000000
+00000000000000000000000000005000000094030000ee000000220000000c000000ffffffff140000000c0000000d0000002100000008000000250000000c00
+00000a000080280000000c00000001000000520000004c010000010000005afeffff0000000000000000000000009001000001000000000000004c0069006200
+650072006100740069006f006e002000530065007200690066000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c00000000000000250000000c0000000100
+00005400000054000000ed06000061020000da07000022040000010000000000000000000000ed06000061020000010000004c00000002000000000000000000
+00000000000000000000500000004c000000ee000000220000000c000000ffffffff140000000c0000000d0000002100000008000000250000000c0000000a00
+0080280000000c00000001000000520000004c010000010000005afeffff0000000000000000000000009001000000000000000000004f00700065006e005300
+79006d0062006f006c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c00000000000000250000000c000000010000005400
+000054000000db0700006102000032090000d2030000010000000000000000000000db07000061020000010000004c0000000200000000000000000000000000
+000000000000500000003d00000058010000220000000c000000ffffffff140000000c0000000d0000002100000008000000250000000c0000000a0000802800
+00000c00000001000000520000004c010000010000005afeffff0000000000000000000000009001000000000000000000004c00690062006500720061007400
+69006f006e0020005300650072006900660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000160000000c00000018000000180000000c00000000000000250000000c00000001000000540000006c00
+00004d09000061020000050d0000220400000100000000000000000000004d09000061020000050000004c000000020000000000000000000000000000000000
+00005800000030002e003000300035000000d30000006a000000d2000000d4000000b8000000220000000c000000ffffffff140000000c0000000d0000002100
+000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff000000000000000000000000900100000100
+0000000000004c0069006200650072006100740069006f006e002000530065007200690066000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c0000000000
+0000250000000c000000010000005400000054000000200d000061020000420e000022040000010000000000000000000000200d000061020000010000004c00
+0000020000000000000000000000000000000000000050000000d700000023010000220000000c000000ffffffff140000000c0000000d000000210000000800
+0000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff00000000000000000000000090010000000000000000
+00004c0069006200650072006100740069006f006e00200053006500720069006600000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c000000000000002500
+00000c000000010000005400000058000000780e0000610200001f10000022040000010000000000000000000000780e000061020000020000004c0000000200
+0000000000000000000000000000000000005000000032003000d3000000d3000000220000000c000000ffffffff140000000c0000000d000000210000000800
+0000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff00000000000000000000000090010000000000000000
+00004f00700065006e00530079006d0062006f006c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c000000000000002500
+00000c000000010000005400000054000000201000006102000077110000d20300000100000000000000000000002010000061020000010000004c0000000200
+000000000000000000000000000000000000500000003d00000058010000220000000c000000ffffffff140000000c0000000d00000021000000080000002500
+00000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff0000000000000000000000009001000000000000000000004c00
+69006200650072006100740069006f006e0020005300650072006900660000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000160000000c00000018000000180000000c00000000000000250000000c00
+00000100000054000000600000009211000061020000a3130000220400000100000000000000000000009211000061020000030000004c000000020000000000
+00000000000000000000000000005400000030002e0031000000d30000006a0000009e000000220000000c000000ffffffff140000000c0000000d0000002100
+000008000000250000000c0000000a000080280000000c00000001000000520000004c010000010000005afeffff000000000000000000000000900100001a01
+000026060f002a02574d464301000000000001000000000000000200000008020000000000000822000001000000000000004c00690062006500720061007400
+69006f006e0020005300650072006900660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000160000000c00000018000000180000000c00000000000000250000000c00000001000000540000005800
+0000be130000610200003916000022040000010000000000000000000000be13000061020000020000004c000000020000000000000000000000000000000000
+0000500000006d006d003101000031010000220000000c000000ffffffff140000000c0000000d000000220000000c000000ffffffff140000000c0000000d00
+0000460000001c00000010000000454d462b024000000c000000000000000e00000014000000000000001000000014000000050000000b020000000005000000
+0c0225042d1604000000020101000400000004010d0008000000fa0200000000000000000000040000002d01000007000000fc020000ffffff00000004000000
+2d0101001c000000fb02000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000
+2d010200040000002e011800050000000902ffffff000400000007010300030000001e0007000000160425042d1600000000030000001e000500000009020000
+00001c000000fb025afe000000000000900101000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01
+030004000000f00102001c000000fb025afe0000000000009001010000a1000000004c696265726174696f6e2053657269660000000000000000000000000000
+0000040000002d01020004000000f00103000700000021050100e50061020000040000002701ffff030000001e00050000000902000000001c000000fb025afe
+000000000000900100000000000000004f70656e53796d626f6c00000000000000000000000000000000000000000000040000002d01030004000000f0010200
+08000000fa02050000000000ffffff00040000002d01020004000000f001000007000000fc020000000000000000040000002d01000004000000f00101001700
+000026060f0024004f4f2a2c0a00f92f48ae02000000d400000061020000010000003d0000000000010000001a00000038050200050005000201250202010a02
+f6010a02f6012502020125020201be010201a301f601a301f601be010201be01040000002701ffff030000001e00050000000902000000001c000000fb025afe
+000000000000900101000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01010004000000f0010300
+1c000000fb025afe0000000000009001010000a1000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d010300
+04000000f00101000700000021050100c40072017b02040000002701ffff030000001e00050000000902000000001c000000fb025afe00000000000090010100
+0000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01010004000000f001030007000000210501004c00
+7201b903040000002701ffff030000001e0008000000fa02050000000000ffffff00040000002d01030004000000f001020007000000fc020000000000000000
+040000002d01020004000000f0010000070000001b04f101be04dc014602040000002701ffff030000001e00050000000902000000001c000000fb025afe0000
+00000000900101000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01000004000000f00101000700
+0000210501004c008403ca02040000002701ffff030000001e00050000000902000000001c000000fb0203ff000000000000900100000000000000004c696265
+726174696f6e20536572696600000000000000000000000000000000040000002d01010004000000f001000007000000210501003000ed03b903040000002701
+ffff030000001e00050000000902000000001c000000fb025afe000000000000900101000000000000004c696265726174696f6e205365726966000000000000
+00000000000000000000040000002d01000004000000f001010007000000210501002c006102f604040000002701ffff030000001e0005000000090200000000
+1c000000fb025afe000000000000900101000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d010100
+04000000f00100001c000000fb025afe0000000000009001010000a1000000004c696265726174696f6e20536572696600000000000000000000000000000000
+040000002d01000004000000f00101000700000021050100c4006102af05040000002701ffff030000001e00050000000902000000001c000000fb025afe0000
+00000000900101000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01010004000000f00100000700
+0000210501004c006102ed06040000002701ffff030000001e00050000000902000000001c000000fb025afe000000000000900100000000000000004f70656e
+53796d626f6c00000000000000000000000000000000000000000000040000002d01000004000000f001010008000000fa02050000000000ffffff0004000000
+2d01010004000000f001030007000000fc020000000000000000040000002d01030004000000f00102001700000026060f0024004f4f2a2c0a00e1b1351b0200
+0000db07000061020000010000003d0000000000010000001a00000038050200050005000908250209080a02fd080a02fd082502090825020908be010908a301
+fd08a301fd08be010908be01040000002701ffff030000001e00050000000902000000001c000000fb025afe000000000000900100000000000000004c696265
+726174696f6e20536572696600000000000000000000000000000000040000002d01020004000000f00100000f000000320a61024d0905000000302e30303500
+d3006900d300d300b800040000002701ffff030000001e00050000000902000000001c000000fb025afe000000000000900101000000000000004c6962657261
+74696f6e20536572696600000000000000000000000000000000040000002d01000004000000f00102000700000021050100d7006102200d040000002701ffff
+030000001e00050000000902000000001c000000fb025afe000000000000900100000000000000004c696265726174696f6e2053657269660000000000000000
+0000000000000000040000002d01020004000000f00100000a000000320a6102780e020000003230d300d300040000002701ffff030000001e00050000000902
+000000001c000000fb025afe000000000000900100000000000000004f70656e53796d626f6c0000000000000000000000000000000000000000000004000000
+2d01000004000000f001020008000000fa02050000000000ffffff00040000002d01020004000000f001010007000000fc020000000000000000040000002d01
+010004000000f00103001700000026060f0024004f4f2a2c0a009f14c61d020000002010000061020000010000003d0000000000010000001a00000038050200
+050005004e1025024e100a0242110a02421125024e1025024e10be014e10a3014211a3014211be014e10be01040000002701ffff030000001e00050000000902
+000000001c000000fb025afe000000000000900100000000000000004c696265726174696f6e2053657269660000000000000000000000000000000004000000
+2d01030004000000f00100000c000000320a6102921103000000302e3100d3006a009e00040000002701ffff030000001e00050000000902000000001c000000
+fb025afe000000000000900101000000000000004c696265726174696f6e20536572696600000000000000000000000000000000040000002d01000004000000
+f00103000a000000320a6102be13020000006d6d30013001040000002701ffff040000002701ffff030000000000}}}}}{\dbch\af12\loch
+. So my FOV needs to be at least 20.1x15mm. Let\u8217\'92s pick 21 x 16 mm to be on the safe side.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\dbch\af12\loch
+QU:}{\dbch\af12\loch
+ What is the size of the ROI and FOV for your experiment?   }
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  2.\tab}\ilvl0\ls4 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+What camera are you using and what are its specifications?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Look up the data sheet for the Manta G504b camera (or the camera you will be using), }
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ How many pixels does the sensor have in each direction (horizontal and vertical) and what is the physical pixels size in micro-meters?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Example: Assume I have a 3 mega-pixel camera with 2000x1500 pixels and the sensor pixel size is 3 micron. I orientate my camera so I have 2000 pixels sampling the 21mm of my FOV. This means my image length calibration is 21/2000 = 0.0105 mm/pixel = 10.5 micron/pixel. }
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  3.\tab}\ilvl0\ls4 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+What lens do I need?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+There are two lens available: 1) Nikon 50mm fixed focal length and 2) Sigma 105mm fixed focal length. Look up the spec sheets for both lens.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is the magnification limit and closest imaging distance for each lens?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Example: My magnification is M = pixel size (in micron) / image pixel size (in micron) = 3 / 10.5 = 0.286. The 50mm lens can\u8217\'92t achieve this magnification so let\u8217\'92s pick the Sigma 105mm lens. My approximate imaging distance is S0 = f/M+f, where f is the focal length and M is the magnification. Therefore, S0 = 105/0.286 +105 = 472 mm. Which is about half a meter so it is manageable. }
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  d.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What is the magnification and imaging distance for your experiment?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  4.\tab}\ilvl0\ls4 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+What speckle size do I need?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Example: I need at least 3 pixels per speckle and I have 0.0105 mm/pixel. So my speckle must be at least 3x0.0105 = 0.0315 mm or 31.5 micron or larger.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+NOTE: the smallest speckle size that can be achieved with the printer is 60 micron. However, 20 micron can be achieved with an airbrush but the dot size is much less reliable.}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  c.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ What speckle size do you need for you experiment? How will you make the speckle pattern?}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  5.\tab}\ilvl0\ls4 \li1080\ri0\lin1080\rin0\fi-360\sl256\slmult1{\loch
+Reporting Requirements:}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  a.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\loch
+Look up the DIC good practice guide and develop a reporting table showing all the DIC parameters you will use for your experiment}
+\par \pard\plain \s113\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\li720\ri0\lin720\rin0\fi0\sb0\sa160\contextualspace\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033{\listtext\pard\plain  b.\tab}\ilvl1\ls4 \li1800\ri0\lin1800\rin0\fi-360\sl256\slmult1{\rtlch\ab \ltrch\loch\b\loch
+QU:}{\loch
+ Show and explain your reporting table in your presentation}
+\par \pard\plain \s0\rtlch\af13\afs22\alang1025 \ltrch\lang2057\langfe1033\hich\af4\loch\sl256\slmult1\qj\widctlpar\hyphpar0\sb0\sa160\ltrpar\cf0\f4\fs20\lang2057\kerning0\dbch\af9\langfe1033\sl256\slmult1\sb0\sa160\loch
+
+\par }
