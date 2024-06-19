@@ -1,8 +1,7 @@
 '''
 ==================================================================================
-
 PLA beam bending solution in terms of maximum deflexion and Force
-Author: Adel Tayeb
 
+Author: Adel Tayeb
 ==================================================================================
 '''
