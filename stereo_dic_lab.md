@@ -39,6 +39,7 @@ The first part of the Stereo-DIC assignment focuses on the basic setup of a Ster
 **Specimen Preparation**:
 1. Surface Preparation - Ensure the surface of the specimen is clean and dry.
 2. Speckle Pattern Application - Apply a high-contrast, random speckle pattern to the surface of the specimen.
+3. **QU**: What are some of the different speckling methods? Give examples of controlled and uncontrolled methods of generating a speckle pattern.
 
 **Cross Correlation Check**:
 
@@ -52,8 +53,42 @@ The first part of the Stereo-DIC assignment focuses on the basic setup of a Ster
 4. Select your region of interest (ROI) by clicking on 'Drawing Tools' and outline the shape of your test piece.     
 5. By clicking on 'Processing Options' select the required correlation criterion and select 'OK'.
 6. To begin the correlation, select the 'Processing' option from the menu bar and click on 'Start Correlation'.
+7. **QU**: What is a cross correlation and why is it needed? What are some potenital reasons why your cross correlation might fail?
 
 **Calibration**:
 
+1. Remove specimen and place the calibration target in the place of the sample. 
+2. For a hand-held target ensure the exposure is approximately 25 ms to ensure there is no motion blur.
+3. You may change the exposure and lighting between calibration images and test images, but aperture and focus should not be adjusted.
+4. Use at least 50 calibration images. 
+5. To ensure the entire volume in which the sample is expected to deform is covered follow these standard motions:
+    * Rotate left/right (10-15 images)
+    * Rotate up/down (10-15 images)
+    * Plunge towards/away from cameras (10-15 images)
+    * Random motion images (10-15 images)  
+6. Store your calibration images in a separate calibration sub-folder    
+7. Use the calibration images in the Calibration Software to calibrate your setup.
+
 <u>Parameters to consider:</u>
 
+1. Focal Length - the focal length should approximately match the lens.
+
+   a. Example: I am using a 24 mega-pixel camera with 2464x2056 pixels and the sensor pixel size is 3.45 micron. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Considerations for the Experiment
+There are a variety of questions you need to answer about your own experiment in order to use DIC most effectively to measure what you want (in the DIC guide this is called the Quantity Of Interest or QOI).
+
+
+**Stereo Angle**
