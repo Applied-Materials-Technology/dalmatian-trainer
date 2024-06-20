@@ -12,6 +12,7 @@ from PIL import Image
 # filename
 # file bits
 
+
 def specklegen (Filename: str,XDim:int,YDim:int,feat_size:int,BWBal:float,Gaussian_value:float,reverse:bool,is16:bool, noise:int)->None:
 #filename = file to save to
 #XDim = X Dimensions of output
