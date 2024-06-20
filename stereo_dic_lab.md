@@ -43,13 +43,13 @@ The first part of the Stereo-DIC assignment focuses on the basic setup of a Ster
 
 **Cross Correlation Check**:
 
-1. Take images and save them to the correct directory and subfolder.
+1. Take a static image of the specimen and save it to the correct directory and subfolder.
 2. Open MatchID 2D software and select your reference image by clicking the 'Reference Image' button.
 
-    * Your reference image will be the first frame taken by the master camera (camera 0).
-3. Using the 'Deformed Image' button select your deformed images.   
-
-     * Ensure the selected deformed images are also taken by the master camera. 
+    * Your reference image will be the image taken by the master camera (camera 0).
+3. Using the 'Deformed Image' button select your deformed images. 
+    * Your deformed image will be the image taken by camera 1.
+ 
 4. Select your region of interest (ROI) by clicking on 'Drawing Tools' and outline the shape of your test piece.     
 5. By clicking on 'Processing Options' select the required correlation criterion and select 'OK'.
 6. To begin the correlation, select the 'Processing' option from the menu bar and click on 'Start Correlation'.
@@ -68,12 +68,22 @@ The first part of the Stereo-DIC assignment focuses on the basic setup of a Ster
     * Random motion images (10-15 images)  
 6. Store your calibration images in a separate calibration sub-folder    
 7. Use the calibration images in the Calibration Software to calibrate your setup.
+8. If correlation fails adjust angles or lighting and repeat.
 
 <u>Parameters to consider:</u>
 
 1. Focal Length - the focal length should approximately match the lens.
 
-   a. Example: I am using a 24 mega-pixel camera with 2464x2056 pixels and the sensor pixel size is 3.45 micron. 
+   a. Example: I am using a 24 mega-pixel camera with 2464x2056 pixels and the sensor pixel size is 3.45 micron. My calibration results show ~7340 px for both cameras. Therefore, my focal length is, ~7340 px x 3.45 micron = 25.3 mm.
+   b. **QU**: What is the focal length for your calibration?
+
+2. Optical Centre - 
+3. Setup geometry - base and stereo angle
+
+   a. **QU**: What is your measured base distance and your stereo angle? 
+
+   b. **QU**: What is the optimum stereo angle range?
+
 
 
 
