@@ -6,9 +6,9 @@ The first part of this assignment is designed to teach you the basics of setting
 1. Capture computer
     - MatchID Grabber and MatchID 2D installed
 2. Camera 
-    - [Manta G504b](https://cdn.alliedvision.com/fileadmin/pdf/en/Manta_G-504_DataSheet_en.pdf) will be used in this exercise.
+    - [Manta G504b](./ex1/Manta_G-504_DataSheet_en.pdf) will be used in this exercise.
 3. Fixed focal length lens
-    - [Nikon 50mm](https://download.nikonimglib.com/archive5/GZvJ600Lu5bw05NP3XT80zV8sU54/AFS50_1.8G_CH%28K6_DL%2906.pdf) fixed focal length or [Sigma 105mm](https://www.sigmaphoto.com/amfile/file/download/file/367/product/28637/) fixed focal length will be used for this exercise.
+    - [Nikon 50mm](./ex1/AFS50_1.8G_CH%28K6_DL%2906.pdf) fixed focal length or [Sigma 105mm](./ex1/105mm-macro-ex.pdf) fixed focal length will be used for this exercise.
 4. Micro-meter translation stage
 5. Speckle pattern target
 6. Mounting rail
