@@ -1,6 +1,9 @@
 '''
 ==================================================================================
-Simply supported PLA beam solution: 3 points and 4 points bending
+Simply supported PLA beam solution (maximum values): 3 points and 4 points bending
+For the 3 points bending, the point load is placed in the middle of the beam.
+For the 4 points bending, the points lods are placed at the same distance from the 
+supports
 
 Author: Adel Tayeb
 ==================================================================================
@@ -10,54 +13,45 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Beam parameters
-length = 10  # Length of the beam (mm)
+length = 200 # Length of the beam (mm)
 
-w = 10  # Uniformly distributed load in kN/m 
+width = 20 # Width of the beam (mm)
+
+height = 10 # Height of the beam (mm)
+
+I =  width*height**3/12 # Area moment of Inertia (mm^4)
+print('the Area moment is ', I)
+
+E = 3500 # Elastic modulus of PLA (Mpa) 
+
+F = 100  # Point load (N)
+
+load_type = 1 # Flag for load type: 0: 3 points bending, 1: 4 points bending
 
 # Functions
-def shear_force(x):
-    return w * (length / 2 - x)  # kN
 
-def bending_moment(x):
-    return (w * x / 2) * (length - x)  # kNm
+def beam_deflection(E,I,F,L,x,load_type):
+    if load_type == 0: # this is the case for 3 points bending 
+        if x <= L/2:
+            deflection = -F*x*(3*L**2-4*x**2)/(48*E*I)
+        elif x > L/2: 
+            deflection = -F*(L-x)*(3*L**2-4*(L-x)**2)/(48*E*I)
+        else:
+            raise RuntimeError('x should be in the interval [0, L]')
+    else: # this is the case for 4 points bending
+        a = float(input('Enter the distance between support and lod in (mm)'))
+        # TO DO: define a condition on the value of a
+        if x <= a:
+            deflection = -F*x*(3*a*L**2-3*a**2-x**2)/(E*I)
+        elif x > a and x <= (L-a):
+            deflection = -F*a*(3*x*L**2-3*x**2-a**2)/(E*I)
+        elif x > (L-a) and x <= L:
+            deflection = -F*(L-x)*(3*a*L**2-3*a**2-(L-x)**2)/(E*I)
+        else:
+            raise RuntimeError('x should be in the interval [0, L]')
+    return deflection
 
-# Maximum shear force calculation
-V_max = w * length / 2  # The maximum shear force at the ends of the beam
 
-# Maximum bending moment calculation
-M_max = w * length ** 2 / 8  # The maximum bending moment at the midpoint of the beam
-
-print(f"Maximum Shear Force: {V_max} kN")
-print(f"Maximum Bending Moment: {M_max} kNm")
-
-# Generating points for plotting
-x_values = np.linspace(0, length, 100)
-sf_values = [shear_force(x) for x in x_values]
-bm_values = [bending_moment(x) for x in x_values]
-
-# Plotting SFD
-plt.figure(figsize=(12, 6))
-
-plt.subplot(1, 2, 1)
-plt.plot(x_values, sf_values, label='Shear Force (Vx)', lw=2, color='blue')
-plt.fill_between(x_values, 0, sf_values, color='skyblue', alpha=0.5)
-plt.axhline(0, color='black', lw=1)  # Beam axis
-plt.title('Shear Force Diagram (SFD)')
-plt.xlabel('Position along the beam (m)')
-plt.ylabel('Shear Force (kN)')
-plt.grid(True)
-plt.legend()
-
-# Plotting BMD
-plt.subplot(1, 2, 2)
-plt.plot(x_values, bm_values, color='red', label='Bending Moment (Mx)', lw=2)
-plt.fill_between(x_values, 0, bm_values, color='salmon', alpha=0.5)
-plt.axhline(0, color='black', lw=1)  # Beam axis
-plt.title('Bending Moment Diagram (BMD)')
-plt.xlabel('Position along the beam (m)')
-plt.ylabel('Bending Moment (kNm)')
-plt.grid(True)
-plt.legend()
-
-plt.tight_layout()
-plt.show()
+# Testing
+x = 10
+print('the deflection @x is ', beam_deflection(E,I,F,length,x,load_type))

@@ -1,0 +1,1 @@
+print("ex2 directory example")
