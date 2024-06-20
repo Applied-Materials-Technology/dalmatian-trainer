@@ -50,7 +50,7 @@ The first part of this assignment is designed to teach you the basics of setting
     - **QU:** What is the minimum number of pixels per speckle?
     - **QU:** What is the speckle size in pixels for the image you have taken?
 4. Grey Level Noise Analysis
-    - Take at least two static images.
+    - Take at least two static images (images of a stationary target).
     - Open the images in either ImageJ or Matlab and subtract them from each other
         i. HINT: in Matlab look up the ‘imread’ function. After that you can subract the image arrays from each other directly: imDiff = im1 – im2. Then calculate the standard deviation: imNoise = std(imDiff(:))/sqrt(2).
     - **QU:** How many bits encode the image you have taken? What is the dynamic range for your image in bits?
@@ -60,7 +60,7 @@ The first part of this assignment is designed to teach you the basics of setting
     - Open this image in the length calibration module of MatchID and use the line tool to obtain the pixel to mm conversion.
     - **QU:** What is the physical speckle size in ‘mm’ for your target?
 6. QOI Noise Analysis
-    - Take a series of images (at least 50) of the stationary speckle target
+    - Take a series of at least 50 images of the stationary speckle target
     - Open the images in MatchID 2D and perform the correlation
         - Open the reference image first
         - Use the drawing tools to select an appropriate ROI
@@ -76,7 +76,7 @@ The first part of this assignment is designed to teach you the basics of setting
     - Orientate the micro stage and speckle target so that the target translates horizontally with respect to the camera.
     - Adjust your lighting and focus as necessary and take a single image to double check your speckle size using MatchID 2D.
     - Take a length calibration image using the ruler and get your pixel calibration factor in mm/px
-    - Take another static image and then translate the target by 0.1, 0.25 and 0.5mm taking an image after each translation. Rename the image files so you know which one is which!
+    - Take another static image (0 translation) and then translate the target by 0.1, 0.25 and 0.5mm taking an image after each translation. Rename the image files so you know which one is which!
     - Perform the correlation for each set of images using the standard parameters
     - **QU:** How does the mean displacement compare to the value you input on the translation stage?
     - **QU:** What should the strain be for this test and how does this compare to what you calculate in MatchID?
