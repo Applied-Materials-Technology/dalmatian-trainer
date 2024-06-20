@@ -68,7 +68,7 @@ The first part of the Stereo-DIC assignment focuses on the basic setup of a Ster
     * Random motion images (10-15 images)  
 6. Store your calibration images in a separate calibration sub-folder    
 7. Use the calibration images in the Calibration Software to calibrate your setup.
-8. If correlation fails adjust angles or lighting and repeat.
+8. If calibration fails adjust angles or lighting and repeat.
 
 <u>Parameters to consider:</u>
 
@@ -83,6 +83,12 @@ The first part of the Stereo-DIC assignment focuses on the basic setup of a Ster
    a. **QU**: What is your measured base distance and your stereo angle? 
 
    b. **QU**: What is the optimum stereo angle range?
+
+4. Calibration residual error -
+5. Epipolar distance - the epipolar distance must be below 1 pixel over the region of interest (ROI) for a good calibration 
+   
+    a. **QU**: What is the epipolar distance? Why must it be below 1 pixel?
+    b. **QU**: What is the epipolar distance for your experiment?
 
 
 
@@ -101,4 +107,9 @@ The first part of the Stereo-DIC assignment focuses on the basic setup of a Ster
 There are a variety of questions you need to answer about your own experiment in order to use DIC most effectively to measure what you want (in the DIC guide this is called the Quantity Of Interest or QOI).
 
 
-**Stereo Angle**
+1. ROI
+2. FOV
+3. Stereo Angle
+4. Cameras used
+5. Lenses
+6. Speckle size 
