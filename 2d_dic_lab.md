@@ -100,11 +100,11 @@ There are a variety of questions you need to answer about your own experiment in
     - Example: I have a sample that is a 80x15x2mm rectangle. The top and bottom 30mm of the sample are used to grip the sample so my ROI is 20x15mm. I am loading my sample in tension using an electromechanical machine. My sample has an elastic modulus of 20GPa and a tensile failure stress of 100MPa Therefore the peak strain will be: strain = stress/modulus = 100/200000 = 5 milli-strain. This means my sample will elongate by appox: strain = change in length / original length => change in length = 0.005 x 20 = 0.1mm. So my FOV needs to be at least 20.1x15mm. Let’s pick 21 x 16 mm to be on the safe side.
     - **QU:** What is the size of the ROI and FOV for your experiment?
 2. What camera are you using and what are its specifications?
-    - Look up the data sheet for the [Manta G504b](https://cdn.alliedvision.com/fileadmin/pdf/en/Manta_G-504_DataSheet_en.pdf) camera (or the camera you will be using),
+    - Look up the data sheet for the [Manta G504b](./ex1/Manta_G-504_DataSheet_en.pdf) camera (or the camera you will be using),
     - **QU:** How many pixels does the sensor have in each direction (horizontal and vertical) and what is the physical pixels size in micro-meters?
     - Example: Assume I have a 3 mega-pixel camera with 2000x1500 pixels and the sensor pixel size is 3 micron. I orientate my camera so I have 2000 pixels sampling the 21mm of my FOV. This means my image length calibration is 21/2000 = 0.0105 mm/pixel = 10.5 micron/pixel.
 3. What lens do I need?
-    - There are two lens available: 1) [Nikon 50mm](https://download.nikonimglib.com/archive5/GZvJ600Lu5bw05NP3XT80zV8sU54/AFS50_1.8G_CH%28K6_DL%2906.pdf) fixed focal length and 2) [Sigma 105mm](https://www.sigmaphoto.com/amfile/file/download/file/367/product/28637/) fixed focal length. Look up the spec sheets for both lens.
+    - There are two lens available: 1) [Nikon 50mm](./ex1/AFS50_1.8G_CH%28K6_DL%2906.pdf) fixed focal length and 2) [Sigma 105mm](./ex1/105mm-macro-ex.pdf) fixed focal length. Look up the spec sheets for both lens.
     - **QU:** What is the magnification limit and closest imaging distance for each lens?
     - Example: My magnification is M = pixel size (in micron) / image pixel size (in micron) = 3 / 10.5 = 0.286. The 50mm lens can’t achieve this magnification so let’s pick the Sigma 105mm lens. My approximate imaging distance is S0 = f/M+f, where f is the focal length and M is the magnification. Therefore, S0 = 105/0.286 +105 = 472 mm. Which is about half a meter so it is manageable.
     d. **QU:** What is the magnification and imaging distance for your experiment?
