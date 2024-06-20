@@ -42,16 +42,16 @@ def beam_deflection(E,I,F,L,x,load_type):
         a = float(input('Enter the distance between support and lod in (mm)'))
         # TO DO: define a condition on the value of a
         if x <= a:
-            deflection = -F*x*(3*a*L**2-3*a**2-x**2)/(E*I)
+            deflection = -F*x*(3*a*L-3*a**2-x**2)/(6*E*I)
         elif x > a and x <= (L-a):
-            deflection = -F*a*(3*x*L**2-3*x**2-a**2)/(E*I)
+            deflection = -F*a*(3*x*L-3*x**2-a**2)/(6*E*I)
         elif x > (L-a) and x <= L:
-            deflection = -F*(L-x)*(3*a*L**2-3*a**2-(L-x)**2)/(E*I)
+            deflection = -F*(L-x)*(3*a*L-3*a**2-(L-x)**2)/(6*E*I)
         else:
             raise RuntimeError('x should be in the interval [0, L]')
     return deflection
 
 
 # Testing
-x = 10
+x = 100
 print('the deflection @x is ', beam_deflection(E,I,F,length,x,load_type))
