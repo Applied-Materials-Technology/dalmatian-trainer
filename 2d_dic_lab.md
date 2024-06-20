@@ -1,14 +1,24 @@
 # 2D DIC Training Laboratory
 ## Basic Camera Setup and Analysis
-The first part of this assignment is focused on the basics of setting up a simple 2D DIC experiment and analysing various characteristics of the DIC measurement system. You will use a speckle pattern target and a translation stage to evaluate the camera and measurement performance. You will present your results as a power point presentation. Where you see the term ‘QU’ you will need to report the answer in your power point. The start of the powerpoint should include a basic explanation of how DIC works targeted at your peers.
+The first part of this assignment is designed to teach you the basics of setting up a simple 2D DIC experiment and analysing various characteristics of the DIC measurement system. You will use a speckle pattern target and a translation stage to evaluate the camera and measurement performance. You will present your results as a power point presentation. Where you see the term ‘QU’ you will need to report the answer in your power point. The start of the powerpoint should include a basic explanation of how DIC works targeted at your peers.
 
-**Equipment Required**: capture computer, camera, fixed focal length lens, micro-meter translation stage, speckle pattern target, mounting rail.
+**Equipment Required**: 
+1. Capture computer
+    - MatchID Grabber and MatchID 2D installed
+2. Camera 
+    - [Manta G504b](https://cdn.alliedvision.com/fileadmin/pdf/en/Manta_G-504_DataSheet_en.pdf) will be used in this exercise.
+3. Fixed focal length lens
+    - [Nikon 50mm](https://download.nikonimglib.com/archive5/GZvJ600Lu5bw05NP3XT80zV8sU54/AFS50_1.8G_CH%28K6_DL%2906.pdf) fixed focal length or [Sigma 105mm](https://www.sigmaphoto.com/amfile/file/download/file/367/product/28637/) fixed focal length will be used for this exercise.
+4. Micro-meter translation stage
+5. Speckle pattern target
+6. Mounting rail
+7. Light source
 
 **General Setup**:
-1. Mount the camera to the rigid rail using the screw mount provided
+1. Mount the camera to the rigid rail using the screw mount provided.
 2. Connect the power cable and ethernet cables to the camera, plug these into the power board and ethernet port on the computer respectively
     - Make sure the lights on the back of the camera ethernet port are flashing to indicate the camera is communicating with the computer
-3. Remove the lens caps from the camera and screw in the C to F mount adapter
+3. Remove the lens caps from the camera and screw in the C to F mount adapter.
 4. Align the red dot on the lens to the red dot on the F mount adapter and connect the lens by twisting until you hear and/or feel a click
 5. Open the MatchID grabber, the camera ‘Manta G504b’ should be listed, select it and press the continue icon.
 6. You should now have a display showing you what the camera is seeing, if the image is dark try opening the aperture and/or increasing the exposure time
@@ -40,7 +50,7 @@ The first part of this assignment is focused on the basics of setting up a simpl
     - **QU:** What is the minimum number of pixels per speckle?
     - **QU:** What is the speckle size in pixels for the image you have taken?
 4. Grey Level Noise Analysis
-    - Take at least two static images
+    - Take at least two static images.
     - Open the images in either ImageJ or Matlab and subtract them from each other
         i. HINT: in Matlab look up the ‘imread’ function. After that you can subract the image arrays from each other directly: imDiff = im1 – im2. Then calculate the standard deviation: imNoise = std(imDiff(:))/sqrt(2).
     - **QU:** How many bits encode the image you have taken? What is the dynamic range for your image in bits?
@@ -50,7 +60,7 @@ The first part of this assignment is focused on the basics of setting up a simpl
     - Open this image in the length calibration module of MatchID and use the line tool to obtain the pixel to mm conversion.
     - **QU:** What is the physical speckle size in ‘mm’ for your target?
 6. QOI Noise Analysis
-    - Take a series of images of the stationary images of the speckle target
+    - Take a series of images (at least 50) of the stationary speckle target
     - Open the images in MatchID 2D and perform the correlation
         - Open the reference image first
         - Use the drawing tools to select an appropriate ROI
@@ -63,8 +73,8 @@ The first part of this assignment is focused on the basics of setting up a simpl
     - **QU:** Calculate the strain noise floor using the standard settings (subset 21, step 10, VSG Q4 element over 15 data points).
 7. Rigid Body Motion Test
     - Create a new working folder to save the images called ‘Rigid Body Motion Test’
-    - Orientate the micro stage and speckle target so that the target translates horizontally with respect to the camer-
-    - Adjust your lighting and focus as necessary and take a single image to double check your speckle size using MatchID 2D
+    - Orientate the micro stage and speckle target so that the target translates horizontally with respect to the camera.
+    - Adjust your lighting and focus as necessary and take a single image to double check your speckle size using MatchID 2D.
     - Take a length calibration image using the ruler and get your pixel calibration factor in mm/px
     - Take another static image and then translate the target by 0.1, 0.25 and 0.5mm taking an image after each translation. Rename the image files so you know which one is which!
     - Perform the correlation for each set of images using the standard parameters
@@ -72,13 +82,15 @@ The first part of this assignment is focused on the basics of setting up a simpl
     - **QU:** What should the strain be for this test and how does this compare to what you calculate in MatchID?
 8. Out of Plane Movement Test
     - Create a new working folder to save the images called ‘Out of Plane Movement Test’
-    - Orientate the micro stage and target so the target can be moved towards and away from the camer-
+    - Orientate the micro stage and target so the target can be moved towards and away from the camera
     - Adjust your lighting and focus as necessary and take a single image to double check your speckle size using MatchID 2D
     - Take a length calibration image using the ruler and get your pixel calibration factor in mm/px
     - Take another static image (0 translation) and then translate the target by 0.1, 0.25 and 0.5mm taking an image after each translation. Rename the image files so you know which one is which!
     - Perform the correlation for each set of images using the standard parameters and calculate the strains.
     - The strain for this test should be approximately dz/S0 where dz is how far you moved the target and S0 is the working distance (measure it with a ruler).
     - **QU:** How does the mean strain over the field compare with the calculation above?
+    - **QU:** What does this suggest to you about the limits of 2D DIC? How might unknown out-of-plane motion affect your results in a real experiment?
+    - Later on, you will try stereo DIC, and see how it enables you to account for out-of-plane motion.
 
 ## Considerations for Your Experiment
 There are a variety of questions you need to answer about your own experiment in order to use DIC most effectively to measure what you want (in the DIC guide this is called the Quantity Of Interest or QOI).
@@ -88,11 +100,11 @@ There are a variety of questions you need to answer about your own experiment in
     - Example: I have a sample that is a 80x15x2mm rectangle. The top and bottom 30mm of the sample are used to grip the sample so my ROI is 20x15mm. I am loading my sample in tension using an electromechanical machine. My sample has an elastic modulus of 20GPa and a tensile failure stress of 100MPa Therefore the peak strain will be: strain = stress/modulus = 100/200000 = 5 milli-strain. This means my sample will elongate by appox: strain = change in length / original length => change in length = 0.005 x 20 = 0.1mm. So my FOV needs to be at least 20.1x15mm. Let’s pick 21 x 16 mm to be on the safe side.
     - **QU:** What is the size of the ROI and FOV for your experiment?
 2. What camera are you using and what are its specifications?
-    - Look up the data sheet for the Manta G504b camera (or the camera you will be using),
+    - Look up the data sheet for the [Manta G504b](https://cdn.alliedvision.com/fileadmin/pdf/en/Manta_G-504_DataSheet_en.pdf) camera (or the camera you will be using),
     - **QU:** How many pixels does the sensor have in each direction (horizontal and vertical) and what is the physical pixels size in micro-meters?
     - Example: Assume I have a 3 mega-pixel camera with 2000x1500 pixels and the sensor pixel size is 3 micron. I orientate my camera so I have 2000 pixels sampling the 21mm of my FOV. This means my image length calibration is 21/2000 = 0.0105 mm/pixel = 10.5 micron/pixel.
 3. What lens do I need?
-    - There are two lens available: 1) Nikon 50mm fixed focal length and 2) Sigma 105mm fixed focal length. Look up the spec sheets for both lens.
+    - There are two lens available: 1) [Nikon 50mm](https://download.nikonimglib.com/archive5/GZvJ600Lu5bw05NP3XT80zV8sU54/AFS50_1.8G_CH%28K6_DL%2906.pdf) fixed focal length and 2) [Sigma 105mm](https://www.sigmaphoto.com/amfile/file/download/file/367/product/28637/) fixed focal length. Look up the spec sheets for both lens.
     - **QU:** What is the magnification limit and closest imaging distance for each lens?
     - Example: My magnification is M = pixel size (in micron) / image pixel size (in micron) = 3 / 10.5 = 0.286. The 50mm lens can’t achieve this magnification so let’s pick the Sigma 105mm lens. My approximate imaging distance is S0 = f/M+f, where f is the focal length and M is the magnification. Therefore, S0 = 105/0.286 +105 = 472 mm. Which is about half a meter so it is manageable.
     d. **QU:** What is the magnification and imaging distance for your experiment?
